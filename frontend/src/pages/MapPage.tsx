@@ -37,20 +37,17 @@ export const MapPage: React.FC = () => {
       worldCopyJump: true
     });
 
-    // Tile Layer: dynamically configured from frontend/.env or high-performance free fallback
+    // Tile Layer: reads VITE_MAPBOX_TOKEN or VITE_STADIA_API_KEY from frontend/.env
     const mapboxToken = import.meta.env.VITE_MAPBOX_TOKEN;
-    const cartoKey = import.meta.env.VITE_CARTO_API_KEY;
     const stadiaKey = import.meta.env.VITE_STADIA_API_KEY;
 
-    let tileUrl = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png';
+    let tileUrl = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png';
     let tileOptions: L.TileLayerOptions = {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+      maxZoom: 20
     };
 
     if (mapboxToken) {
-      // Mapbox Dark v11
       tileUrl = `https://api.mapbox.com/styles/v1/mapbox/dark-v11/tiles/{z}/{x}/{y}?access_token=${mapboxToken}`;
       tileOptions = {
         attribution: '&copy; <a href="https://www.mapbox.com/">Mapbox</a> &copy; OpenStreetMap',
@@ -58,21 +55,8 @@ export const MapPage: React.FC = () => {
         zoomOffset: -1,
         maxZoom: 18
       };
-    } else if (cartoKey) {
-      // CARTO with user API key
-      tileUrl = `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${cartoKey}`;
-      tileOptions = {
-        attribution: '&copy; CARTO &copy; OpenStreetMap',
-        subdomains: 'abcd',
-        maxZoom: 19
-      };
     } else if (stadiaKey) {
-      // Stadia Alidade Smooth Dark
       tileUrl = `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${stadiaKey}`;
-      tileOptions = {
-        attribution: '&copy; Stadia Maps &copy; OpenStreetMap',
-        maxZoom: 20
-      };
     }
 
     L.tileLayer(tileUrl, tileOptions).addTo(map);
