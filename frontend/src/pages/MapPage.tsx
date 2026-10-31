@@ -37,12 +37,45 @@ export const MapPage: React.FC = () => {
       worldCopyJump: true
     });
 
-    // High-performance OpenStreetMap Carto Dark Matter tile layer (No API key required)
-    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
+    // Tile Layer: dynamically configured from frontend/.env or high-performance free fallback
+    const mapboxToken = import.meta.env.VITE_MAPBOX_TOKEN;
+    const cartoKey = import.meta.env.VITE_CARTO_API_KEY;
+    const stadiaKey = import.meta.env.VITE_STADIA_API_KEY;
+
+    let tileUrl = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png';
+    let tileOptions: L.TileLayerOptions = {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 19
-    }).addTo(map);
+    };
+
+    if (mapboxToken) {
+      // Mapbox Dark v11
+      tileUrl = `https://api.mapbox.com/styles/v1/mapbox/dark-v11/tiles/{z}/{x}/{y}?access_token=${mapboxToken}`;
+      tileOptions = {
+        attribution: '&copy; <a href="https://www.mapbox.com/">Mapbox</a> &copy; OpenStreetMap',
+        tileSize: 512,
+        zoomOffset: -1,
+        maxZoom: 18
+      };
+    } else if (cartoKey) {
+      // CARTO with user API key
+      tileUrl = `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${cartoKey}`;
+      tileOptions = {
+        attribution: '&copy; CARTO &copy; OpenStreetMap',
+        subdomains: 'abcd',
+        maxZoom: 19
+      };
+    } else if (stadiaKey) {
+      // Stadia Alidade Smooth Dark
+      tileUrl = `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${stadiaKey}`;
+      tileOptions = {
+        attribution: '&copy; Stadia Maps &copy; OpenStreetMap',
+        maxZoom: 20
+      };
+    }
+
+    L.tileLayer(tileUrl, tileOptions).addTo(map);
 
     earthquakeLayerRef.current = L.layerGroup().addTo(map);
     nearbyLayerRef.current = L.layerGroup().addTo(map);
