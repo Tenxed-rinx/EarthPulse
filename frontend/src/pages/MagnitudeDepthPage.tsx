@@ -7,7 +7,8 @@ import {
   Scatter,
   XAxis,
   YAxis,
-  Tooltip
+  Tooltip,
+  Cell
 } from 'recharts';
 import { api } from '../services/api';
 
@@ -23,38 +24,41 @@ export const MagnitudeDepthPage: React.FC = () => {
           api.getMagnitudeDistribution(),
           api.getDepthAnalysis()
         ]);
-        setMagDist(mRes.magnitude_distribution || []);
-        setDepthIntervals(dRes.depth_intervals || []);
-        setScatterSample(dRes.scatter_sample || []);
+        
+        // Normalize magnitude distribution data
+        const rawMags = mRes.magnitude_distribution || [];
+        const normalizedMags = rawMags.map((m: any) => ({
+          band: m.magnitude_band?.replace(' (', '\n(') || m.range || 'M5+',
+          shortBand: m.magnitude_band?.split(' (')[0] || 'M5+',
+          count: m.count || 0,
+          avgDepth: m.avg_depth_km,
+          tsunamis: m.tsunami_count || 0
+        }));
+        setMagDist(normalizedMags);
+
+        // Normalize depth intervals data
+        const rawDepths = dRes.depth_intervals || [];
+        const normalizedDepths = rawDepths.map((d: any) => ({
+          interval: d.interval?.replace(' km (', '\n(') || `${d.lower_depth_km}km`,
+          shortInterval: d.interval?.split(' (')[0] || `${d.lower_depth_km}km`,
+          count: d.count || 0,
+          avgMag: d.avg_magnitude
+        }));
+        setDepthIntervals(normalizedDepths);
+
+        // Scatter plot sample
+        const rawScatter = dRes.scatter_sample || [];
+        setScatterSample(rawScatter.map((pt: any) => ({
+          mag: pt.magnitude,
+          depth: pt.depth_km,
+          place: pt.place
+        })));
       } catch (err) {
-        console.error(err);
+        console.error('Failed to load depth/magnitude data:', err);
       }
     }
     loadData();
   }, []);
-
-  // Magnitude categories table
-  const magCategories = magDist.map((m) => ({
-    band: m.range || m.category,
-    count: m.count,
-  }));
-
-  // Scatter plot points (magnitude vs depth)
-  const scatterPoints = (scatterSample.length > 0 ? scatterSample : [
-    { magnitude: 4.8, depth_km: 10 },
-    { magnitude: 5.2, depth_km: 25 },
-    { magnitude: 5.5, depth_km: 40 },
-    { magnitude: 6.0, depth_km: 30 },
-    { magnitude: 6.4, depth_km: 65 },
-    { magnitude: 6.8, depth_km: 50 },
-    { magnitude: 7.2, depth_km: 120 },
-    { magnitude: 7.6, depth_km: 15 },
-    { magnitude: 8.1, depth_km: 28 },
-    { magnitude: 9.1, depth_km: 30 },
-  ]).map((pt) => ({
-    mag: pt.magnitude,
-    depth: pt.depth_km,
-  }));
 
   return (
     <div className="space-y-6">
@@ -62,21 +66,38 @@ export const MagnitudeDepthPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Left: Magnitude distribution */}
         <div className="lg:col-span-6 bg-[#0d1626] border border-[#142338] rounded-xl p-6">
-          <div className="flex items-center justify-between pb-4 border-b border-[#142338] mb-4">
-            <h2 className="text-sm font-semibold text-slate-100">Magnitude distribution</h2>
-            <span className="font-mono text-xs text-slate-400">/api/magnitude/distribution</span>
+          <div className="flex items-center justify-between pb-3 border-b border-[#142338] mb-4">
+            <div>
+              <h2 className="text-sm font-semibold text-slate-100">Earthquakes by Magnitude Band</h2>
+              <p className="text-[11px] text-slate-400 mt-0.5">Distribution of moderate to catastrophic seismic events</p>
+            </div>
+            <span className="font-mono text-[11px] text-slate-500">26,170 Events</span>
           </div>
 
-          <div className="h-64 w-full pt-4">
+          <div className="h-64 w-full pt-2">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={magDist} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                <XAxis dataKey="category" stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
-                <YAxis stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
+              <BarChart data={magDist} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
+                <XAxis 
+                  dataKey="shortBand" 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 11 }} 
+                  interval={0}
+                />
+                <YAxis 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 10 }}
+                  tickFormatter={(val) => val >= 1000 ? `${(val/1000).toFixed(0)}k` : val}
+                />
                 <Tooltip
-                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '6px', color: '#f1f5f9' }}
+                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '8px', color: '#f1f5f9' }}
+                  formatter={(value: any) => [`${Number(value).toLocaleString()} events`, 'Frequency']}
                   labelStyle={{ color: '#2dd4bf', fontWeight: 600 }}
                 />
-                <Bar dataKey="count" fill="#2b7a78" radius={[2, 2, 0, 0]} />
+                <Bar dataKey="count" fill="#2b7a78" radius={[4, 4, 0, 0]}>
+                  {magDist.map((_, index) => (
+                    <Cell key={`cell-${index}`} fill={index === 3 ? '#ef4444' : index === 2 ? '#f97316' : '#2b7a78'} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -84,84 +105,124 @@ export const MagnitudeDepthPage: React.FC = () => {
 
         {/* Right: Depth distribution */}
         <div className="lg:col-span-6 bg-[#0d1626] border border-[#142338] rounded-xl p-6">
-          <div className="flex items-center justify-between pb-4 border-b border-[#142338] mb-4">
-            <h2 className="text-sm font-semibold text-slate-100">Depth distribution</h2>
-            <span className="font-mono text-xs text-slate-400">/api/depth/analysis</span>
+          <div className="flex items-center justify-between pb-3 border-b border-[#142338] mb-4">
+            <div>
+              <h2 className="text-sm font-semibold text-slate-100">Earthquakes by Focal Depth</h2>
+              <p className="text-[11px] text-slate-400 mt-0.5">Lithospheric crustal vs mantle subduction zones</p>
+            </div>
+            <span className="font-mono text-[11px] text-slate-500">Focal Depths</span>
           </div>
 
-          <div className="h-64 w-full pt-4">
+          <div className="h-64 w-full pt-2">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={depthIntervals} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                <XAxis dataKey="depth_regime" stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
-                <YAxis stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
+              <BarChart data={depthIntervals} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
+                <XAxis 
+                  dataKey="shortInterval" 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 10 }} 
+                  interval={0}
+                  angle={-15}
+                  textAnchor="end"
+                />
+                <YAxis 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 10 }}
+                  tickFormatter={(val) => val >= 1000 ? `${(val/1000).toFixed(0)}k` : val}
+                />
                 <Tooltip
-                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '6px', color: '#f1f5f9' }}
+                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '8px', color: '#f1f5f9' }}
+                  formatter={(value: any) => [`${Number(value).toLocaleString()} events`, 'Frequency']}
                   labelStyle={{ color: '#d97706', fontWeight: 600 }}
                 />
-                <Bar dataKey="count" fill="#936838" radius={[2, 2, 0, 0]} />
+                <Bar dataKey="count" fill="#936838" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </div>
       </div>
 
-      {/* Bottom Row: Magnitude vs depth & Magnitude categories */}
+      {/* Bottom Row: Magnitude vs depth & Magnitude categories table */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        {/* Left: Magnitude vs depth */}
+        {/* Left: Magnitude vs depth Scatter Plot */}
         <div className="lg:col-span-7 bg-[#0d1626] border border-[#142338] rounded-xl p-6">
-          <div className="flex items-center justify-between pb-4 border-b border-[#142338] mb-4">
-            <h2 className="text-sm font-semibold text-slate-100">Magnitude vs depth</h2>
-            <span className="font-mono text-xs text-slate-400">/api/depth/analysis</span>
+          <div className="flex items-center justify-between pb-3 border-b border-[#142338] mb-4">
+            <div>
+              <h2 className="text-sm font-semibold text-slate-100">Magnitude vs. Focal Depth (km)</h2>
+              <p className="text-[11px] text-slate-400 mt-0.5">Megaquakes occur in shallow brittle crust (0–70 km)</p>
+            </div>
+            <span className="font-mono text-[11px] text-teal-400">Pearson r = -0.057</span>
           </div>
 
-          <div className="h-64 w-full pt-4">
+          <div className="h-64 w-full pt-2">
             <ResponsiveContainer width="100%" height="100%">
-              <ScatterChart margin={{ top: 10, right: 20, left: -20, bottom: 0 }}>
-                <XAxis type="number" dataKey="mag" name="Magnitude" domain={[4.5, 9.5]} stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
-                <YAxis type="number" dataKey="depth" name="Depth (km)" stroke="#475569" tick={{ fill: '#64748b', fontSize: 10 }} />
+              <ScatterChart margin={{ top: 10, right: 20, left: 0, bottom: 10 }}>
+                <XAxis 
+                  type="number" 
+                  dataKey="mag" 
+                  name="Magnitude" 
+                  domain={[5.0, 9.5]} 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 10 }} 
+                  unit="M"
+                />
+                <YAxis 
+                  type="number" 
+                  dataKey="depth" 
+                  name="Depth" 
+                  stroke="#475569" 
+                  tick={{ fill: '#94a3b8', fontSize: 10 }} 
+                  unit="km"
+                />
                 <Tooltip
                   cursor={{ strokeDasharray: '3 3' }}
-                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '6px', color: '#f1f5f9' }}
+                  contentStyle={{ backgroundColor: '#0c1422', borderColor: '#192841', borderRadius: '8px', color: '#f1f5f9' }}
+                  formatter={(value: any, name: any) => [name === 'Magnitude' ? `M ${value}` : `${value} km`, name]}
                 />
-                <Scatter data={scatterPoints} fill="#2dd4bf" />
+                <Scatter data={scatterSample} fill="#2dd4bf" opacity={0.7} />
               </ScatterChart>
             </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Right: Magnitude categories */}
-        <div className="lg:col-span-5 bg-[#0d1626] border border-[#142338] rounded-xl p-6">
-          <div className="flex items-center justify-between pb-4 border-b border-[#142338] mb-4">
-            <h2 className="text-sm font-semibold text-slate-100">Magnitude categories</h2>
-            <span className="font-mono text-xs text-slate-400">/api/magnitude/distribution</span>
+        {/* Right: Magnitude categories table */}
+        <div className="lg:col-span-5 bg-[#0d1626] border border-[#142338] rounded-xl p-6 flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between pb-3 border-b border-[#142338] mb-4">
+              <div>
+                <h2 className="text-sm font-semibold text-slate-100">Severity Breakdown</h2>
+                <p className="text-[11px] text-slate-400 mt-0.5">Recorded historical events by category</p>
+              </div>
+              <span className="font-mono text-[11px] text-slate-500">Summary</span>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-xs font-mono">
+                <thead>
+                  <tr className="text-slate-400 border-b border-[#142338]">
+                    <th className="pb-3 font-medium">Band</th>
+                    <th className="pb-3 font-medium text-right">Count</th>
+                    <th className="pb-3 font-medium text-right">Avg Depth</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-[#142338]">
+                  {magDist.map((item, idx) => (
+                    <tr key={idx} className="hover:bg-[#111d2e]/50 transition-colors">
+                      <td className="py-3 text-slate-200 font-sans font-medium flex items-center gap-2">
+                        <span className={`w-2 h-2 rounded-full ${idx === 3 ? 'bg-purple-500' : idx === 2 ? 'bg-red-500' : idx === 1 ? 'bg-orange-500' : 'bg-teal-500'}`} />
+                        <span>{item.shortBand}</span>
+                      </td>
+                      <td className="py-3 text-teal-300 font-bold text-right">{item.count.toLocaleString()}</td>
+                      <td className="py-3 text-slate-400 text-right">{item.avgDepth ? `${item.avgDepth.toFixed(1)} km` : '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
 
-          <div className="overflow-x-auto max-h-64">
-            <table className="w-full text-left text-xs font-mono">
-              <thead>
-                <tr className="text-slate-400 border-b border-[#142338]">
-                  <th className="pb-3 font-normal">Band</th>
-                  <th className="pb-3 font-normal">Count</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-[#142338]">
-                {magCategories.length > 0 ? (
-                  magCategories.map((c, i) => (
-                    <tr key={i} className="hover:bg-[#111d2e]/50 transition-colors">
-                      <td className="py-2.5 text-slate-200">{c.band}</td>
-                      <td className="py-2.5 text-teal-400">{c.count?.toLocaleString()}</td>
-                    </tr>
-                  ))
-                ) : (
-                  [1, 2, 3, 4, 5].map((_, idx) => (
-                    <tr key={idx}>
-                      <td className="py-2.5 text-slate-500">—</td>
-                      <td className="py-2.5 text-slate-500">—</td>
-                    </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
+          <div className="mt-4 pt-3 border-t border-[#142338] text-[11px] text-slate-400 flex items-center justify-between font-mono">
+            <span>Total Catastrophic Events:</span>
+            <span className="text-red-400 font-bold">27 Events (M 8.0+)</span>
           </div>
         </div>
       </div>

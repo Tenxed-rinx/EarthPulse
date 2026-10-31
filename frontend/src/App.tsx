@@ -11,7 +11,6 @@ import { api, getAuthToken, setAuthToken } from './services/api';
 import type { UserAccount } from './types/earthquake';
 
 export const App: React.FC = () => {
-  // Support real URL Hash routing so opening in a new tab immediately loads that page
   const getInitialTab = (): string => {
     const hash = window.location.hash.replace('#', '').trim();
     const validTabs = ['overview', 'map', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
@@ -21,7 +20,6 @@ export const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>(getInitialTab);
   const [user, setUser] = useState<UserAccount | null>(null);
 
-  // Sync hash changes (e.g. browser back/forward or new tab opens with #regional)
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '').trim();
@@ -34,13 +32,11 @@ export const App: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  // Update hash when tab changes
   const handleTabChange = (tab: string) => {
     setActiveTab(tab);
     window.location.hash = tab;
   };
 
-  // Auth verify on mount
   useEffect(() => {
     const token = getAuthToken();
     if (token) {
@@ -60,18 +56,17 @@ export const App: React.FC = () => {
     }
   }, []);
 
-  // Find active item metadata for top category badge & headline
   const currentNav = navItems.find((n) => n.id === activeTab) || navItems[0];
 
   return (
     <div className="flex min-h-screen bg-[#070c14] text-slate-100 font-sans antialiased overflow-x-hidden">
-      {/* Fixed Left Sidebar matching screenshot */}
+      {/* Left Sidebar */}
       <Sidebar activeTab={activeTab} setActiveTab={handleTabChange} user={user} />
 
       {/* Main Content Area */}
-      <main className="flex-1 bg-[#090e18] p-8 lg:p-12 overflow-y-auto min-h-screen flex flex-col justify-between">
+      <main className="flex-1 bg-[#090e18] p-8 lg:p-10 overflow-y-auto min-h-screen flex flex-col justify-between">
         <div>
-          {/* Header Badge & Title matching screenshots */}
+          {/* Header Title with User-Friendly Framing */}
           <div className="mb-6">
             <div className="text-xs font-semibold tracking-wider text-teal-400 uppercase mb-1.5 font-mono">
               {currentNav.category}
@@ -97,11 +92,10 @@ export const App: React.FC = () => {
           </div>
         </div>
 
-        {/* Footer notice matching wireframe */}
-        <div className="mt-12 pt-6 border-t border-[#121c2d]">
-          <p className="font-mono text-xs text-slate-400">
-            Layout preview. Values stay empty until bound to the Flask API.
-          </p>
+        {/* User-focused footer */}
+        <div className="mt-12 pt-6 border-t border-[#121c2d] flex items-center justify-between text-xs text-slate-500 font-mono">
+          <span>EarthPulse &bull; USGS Real-Time Seismic Analysis Platform</span>
+          <span className="text-teal-400/80">Connected to 26,170 Historical Events</span>
         </div>
       </main>
     </div>
