@@ -98,6 +98,7 @@ export const api = {
 
   // Admin
   refreshSummaries: () => request<any>('/admin/refresh-summaries', { method: 'POST' }),
+  reloadData: () => request<any>('/admin/reload-data', { method: 'POST' }),
   getDbStats: () => request<any>('/admin/db-stats'),
 
   // CSV Export URL
