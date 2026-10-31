@@ -15,7 +15,7 @@ export const App: React.FC = () => {
   const getInitialTab = (): string => {
     const hash = window.location.hash.replace('#', '').trim();
     const validTabs = ['overview', 'map', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
-    return validTabs.includes(hash) ? hash : 'admin'; // default to user wireframe tab or overview
+    return validTabs.includes(hash) ? hash : 'overview';
   };
 
   const [activeTab, setActiveTab] = useState<string>(getInitialTab);

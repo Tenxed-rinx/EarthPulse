@@ -37,9 +37,9 @@ export const MapPage: React.FC = () => {
       worldCopyJump: true
     });
 
-    // Dark Matter tile layer for scientific aesthetic
+    // Standard high-reliability OpenStreetMap / Carto tile layer
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
       subdomains: 'abcd',
       maxZoom: 19
     }).addTo(map);
@@ -49,6 +49,11 @@ export const MapPage: React.FC = () => {
     hotspotLayerRef.current = L.layerGroup().addTo(map);
 
     mapInstanceRef.current = map;
+
+    // Force map to recompute container dimensions after DOM renders
+    setTimeout(() => {
+      map.invalidateSize();
+    }, 200);
 
     // Load initial regions
     api.getRegions().then((data) => setRegions(data.regions || [])).catch(() => {});
