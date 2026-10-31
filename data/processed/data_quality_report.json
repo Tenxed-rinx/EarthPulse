@@ -1,0 +1,48 @@
+{
+  "total_input_records": 26170,
+  "valid_clean_records": 26170,
+  "duplicate_id_rejected": 0,
+  "invalid_geometry_rejected": 0,
+  "invalid_coordinates_rejected": 0,
+  "missing_or_invalid_mag_rejected": 0,
+  "invalid_depth_rejected": 0,
+  "invalid_timestamp_rejected": 0,
+  "missing_place_imputed": 0,
+  "missing_mag_type_imputed": 0,
+  "tsunami_flags_count": 824,
+  "magnitude_range": {
+    "min": 5.2,
+    "max": 9.1
+  },
+  "depth_range_km": {
+    "min": -1.01,
+    "max": 691.6
+  },
+  "year_distribution": {
+    "2000": 1080,
+    "2001": 941,
+    "2002": 925,
+    "2003": 944,
+    "2004": 1138,
+    "2005": 1156,
+    "2006": 1103,
+    "2007": 1282,
+    "2008": 1110,
+    "2009": 1119,
+    "2010": 1294,
+    "2011": 1526,
+    "2012": 963,
+    "2013": 937,
+    "2014": 1029,
+    "2015": 937,
+    "2016": 996,
+    "2017": 859,
+    "2018": 1065,
+    "2019": 891,
+    "2020": 833,
+    "2021": 1226,
+    "2022": 976,
+    "2023": 1055,
+    "2024": 785
+  }
+}

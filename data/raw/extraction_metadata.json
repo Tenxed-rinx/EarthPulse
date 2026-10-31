@@ -1,0 +1,13 @@
+{
+  "source": "USGS Comprehensive Earthquake Catalog (ComCat)",
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "query_start": "2000-01-01",
+  "query_end": "2025-01-01",
+  "min_magnitude": 5.2,
+  "extraction_started_at": "2026-10-31T18:09:39.739697Z",
+  "extraction_completed_at": "2026-10-31T18:10:15.242203Z",
+  "duration_seconds": 35.502506,
+  "total_records_downloaded": 26170,
+  "distinct_records": 26170,
+  "raw_file_bytes": 22191859
+}

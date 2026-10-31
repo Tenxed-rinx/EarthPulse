@@ -1,0 +1,7 @@
+magnitude_band,lower_bound,upper_bound,severity_order,description
+Minor (< 4.0),0.0,3.99,1,"Often felt, rarely causes damage"
+Light (4.0 - 4.9),4.0,4.99,2,"Noticeable shaking, minor damage possible"
+Moderate (5.0 - 5.9),5.0,5.99,3,Damage to poorly constructed buildings
+Strong (6.0 - 6.9),6.0,6.99,4,Destructive in areas up to 160 km across
+Major (7.0 - 7.9),7.0,7.99,5,Severe damage over large regions
+Great (8.0+),8.0,10.0,6,Devastating damage across hundreds of km

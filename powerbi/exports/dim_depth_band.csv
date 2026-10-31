@@ -1,0 +1,4 @@
+depth_band,min_depth_km,max_depth_km,tectonic_context
+Shallow (0 - 70 km),0.0,70.0,"Crustal & subduction interface, maximum surface energy transfer"
+Intermediate (70 - 300 km),70.0,300.0,Subducting slab dehydration embrittlement
+Deep (300+ km),300.0,1000.0,Phase transformations in deep mantle slabs (Wadati-Benioff)

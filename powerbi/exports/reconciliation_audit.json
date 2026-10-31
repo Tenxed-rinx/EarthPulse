@@ -1,0 +1,15 @@
+{
+  "export_timestamp": "2026-10-31T18:10:30.706341Z",
+  "mongodb_collection_count": 26170,
+  "powerbi_fact_rows": 26170,
+  "powerbi_date_rows": 8232,
+  "powerbi_region_rows": 10,
+  "powerbi_monthly_agg_rows": 2837,
+  "powerbi_hotspot_rows": 919,
+  "avg_magnitude_mongo": 5.56,
+  "max_magnitude_mongo": 9.1,
+  "min_magnitude_mongo": 5.2,
+  "avg_depth_km_mongo": 60.41,
+  "total_tsunami_flags": 824,
+  "integrity_verified": true
+}

@@ -1,0 +1,920 @@
+grid_id,earthquake_count,avg_magnitude,max_magnitude,avg_depth_km,min_depth_km,max_depth_km,centroid_lon,centroid_lat,primary_region,seismic_density_tier
+grid_-06_+152,339,5.54,7.9,44.69,4.58,196.0,153.0,-5.0,Global Intraplate & Oceanic Basins,Ultra High
+grid_-30_-178,309,5.53,8.1,19.57,4.36,155.4,-177.0,-29.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-08_+154,275,5.57,7.9,38.18,7.0,415.0,155.0,-7.0,Global Intraplate & Oceanic Basins,Ultra High
+grid_+36_+140,262,5.56,7.9,34.99,4.7,98.61,141.0,37.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_-16_-174,251,5.56,8.1,24.71,0.0,121.7,-173.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-22_+168,243,5.59,7.5,26.78,5.61,185.1,169.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+00_+126,228,5.53,7.5,44.0,3.3,155.59,127.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-06_+150,226,5.65,7.8,60.71,8.0,509.0,151.0,-5.0,Global Intraplate & Oceanic Basins,Ultra High
+grid_-24_+170,223,5.52,7.7,24.37,7.0,145.1,171.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-16_+166,202,5.62,7.2,81.22,6.93,212.2,167.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-12_+164,196,5.58,8.0,23.8,6.0,155.3,165.0,-11.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+38_+142,183,5.63,9.1,29.38,2.8,73.64,143.0,39.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_+02_+126,173,5.51,7.2,39.92,9.73,140.0,127.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-32_-178,167,5.48,7.0,22.36,1.6,67.02,-177.0,-31.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-22_-176,161,5.51,8.0,33.81,0.0,216.8,-175.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-14_+166,161,5.67,7.8,81.82,8.0,272.0,167.0,-13.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-34_-180,160,5.43,6.6,28.95,7.0,246.1,-179.0,-33.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-22_-180,159,5.64,7.7,587.39,393.4,687.6,-179.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-20_+168,155,5.6,7.2,83.95,4.3,300.0,169.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+36_+142,154,5.58,7.3,22.38,0.7,52.4,143.0,37.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_-18_+166,153,5.59,7.2,28.37,2.99,202.3,167.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-18_-174,151,5.46,6.9,30.61,3.0,163.0,-173.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-12_+160,150,5.56,7.8,41.15,4.0,114.1,161.0,-11.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-08_+128,147,5.55,7.3,123.97,6.0,401.8,129.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_+04_+126,132,5.53,7.0,57.13,9.0,200.0,127.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_+08_+126,130,5.48,7.6,41.57,9.0,83.68,127.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-24_-176,126,5.47,7.6,21.58,5.0,141.9,-175.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+40_+142,124,5.61,8.16,33.54,9.0,68.0,143.0,41.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_+34_+140,122,5.52,6.6,29.82,1.7,84.8,141.0,35.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_+00_+096,121,5.53,6.9,26.71,4.7,53.0,97.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-58_-026,121,5.51,7.5,25.85,6.72,84.9,-25.0,-57.0,Mid-Atlantic Ridge & Polar Oceans,Ultra High
+grid_-32_-180,120,5.57,7.4,90.35,9.96,414.0,-179.0,-31.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+22_+120,118,5.58,7.4,20.35,5.83,57.8,121.0,23.0,Pacific Ring of Fire - East Asia & Japan,Ultra High
+grid_-06_+102,117,5.48,7.9,44.5,10.0,138.5,103.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-18_-180,116,5.65,7.1,562.34,35.0,658.41,-179.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-38_-074,113,5.6,8.8,26.98,3.86,49.3,-73.0,-37.0,Pacific Ring of Fire - South America & Andes,Ultra High
+grid_-12_+166,111,5.56,7.1,54.16,6.0,210.72,167.0,-11.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_-04_+100,111,5.59,7.9,32.16,7.4,105.1,101.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_+50_-180,110,5.6,7.2,31.35,4.7,94.12,-179.0,51.0,Global Intraplate & Oceanic Basins,Ultra High
+grid_+04_+094,110,5.48,6.1,40.81,9.75,124.8,95.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Ultra High
+grid_-60_-026,107,5.46,8.1,35.9,7.6,88.7,-25.0,-59.0,Mid-Atlantic Ridge & Polar Oceans,Ultra High
+grid_-32_-072,104,5.68,8.3,37.64,8.01,108.0,-71.0,-31.0,Pacific Ring of Fire - South America & Andes,Ultra High
+grid_-58_-028,101,5.49,7.2,95.42,7.6,307.6,-27.0,-57.0,Mid-Atlantic Ridge & Polar Oceans,Ultra High
+grid_-28_-178,100,5.48,7.0,38.43,6.73,209.8,-177.0,-27.0,Pacific Ring of Fire - Oceania & South Pacific,Ultra High
+grid_+24_+122,95,5.55,7.1,55.95,2.8,256.0,123.0,25.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_+36_+070,94,5.66,7.5,185.29,8.68,252.5,71.0,37.0,Himalayan & South Asian Collision Belt,High
+grid_+06_+094,94,5.41,6.6,28.5,6.21,229.3,95.0,7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-16_-176,93,5.6,7.6,78.42,6.0,318.6,-175.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+06_+126,89,5.6,7.5,55.67,8.0,209.6,127.0,7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-04_+138,88,5.53,7.0,32.81,2.0,105.7,139.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-20_-176,86,5.61,6.9,128.04,7.3,265.0,-175.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-60_-028,85,5.45,7.1,62.08,6.54,156.8,-27.0,-59.0,Mid-Atlantic Ridge & Polar Oceans,High
+grid_-36_-074,84,5.51,7.1,25.88,8.0,41.9,-73.0,-35.0,Pacific Ring of Fire - South America & Andes,High
+grid_+14_-094,83,5.68,8.2,51.54,4.0,210.4,-93.0,15.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-20_-174,83,5.47,7.3,19.98,0.9,65.4,-173.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-08_+146,81,5.61,7.6,61.91,7.0,146.0,147.0,-7.0,Global Intraplate & Oceanic Basins,High
+grid_-18_-178,79,5.53,6.5,111.92,9.9,643.82,-177.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-04_+150,78,5.54,6.4,37.94,9.0,407.4,151.0,-3.0,Global Intraplate & Oceanic Basins,High
+grid_-26_+178,78,5.64,6.6,538.1,459.12,691.6,179.0,-25.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-24_-180,77,5.49,6.9,535.84,245.1,621.6,-179.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-22_-070,76,5.47,6.5,108.44,36.6,147.0,-69.0,-21.0,Pacific Ring of Fire - South America & Andes,High
+grid_-02_+098,75,5.64,7.6,30.05,10.0,84.5,99.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+46_+152,73,5.51,8.3,30.17,4.0,143.0,153.0,47.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-06_+100,71,5.62,8.4,25.51,3.9,58.5,101.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+34_+138,71,5.43,6.2,25.01,9.0,170.1,139.0,35.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_+18_+120,71,5.46,6.2,27.52,6.0,64.4,121.0,19.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_+08_+092,70,5.43,6.6,29.78,8.0,102.4,93.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_+120,70,5.56,6.7,78.91,8.72,184.8,121.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-22_-178,70,5.59,6.6,278.47,9.9,562.39,-177.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-10_+156,70,5.63,8.1,19.0,4.0,103.2,157.0,-9.0,Global Intraplate & Oceanic Basins,High
+grid_-20_-178,70,5.62,7.1,325.05,6.2,639.8,-177.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-08_+130,69,5.54,7.6,92.11,1.9,200.0,131.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+02_+128,68,5.46,7.0,71.98,8.0,239.0,129.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_-092,67,5.59,7.4,34.66,8.0,78.24,-91.0,13.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-20_-180,67,5.69,8.2,592.31,439.2,688.0,-179.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+04_+124,66,5.53,6.9,120.2,9.0,499.9,125.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_+144,66,5.5,7.1,54.27,7.33,439.0,145.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-22_-174,66,5.53,6.9,16.37,6.0,62.9,-173.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+02_+094,64,5.66,9.1,27.74,7.9,46.0,95.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_-090,64,5.68,7.7,49.54,8.0,132.6,-89.0,13.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-18_-176,64,5.62,7.2,146.03,10.0,350.4,-175.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+50_+178,63,5.62,7.9,51.9,10.0,122.3,179.0,51.0,Global Intraplate & Oceanic Basins,High
+grid_+48_+154,63,5.52,6.5,48.45,10.0,133.9,155.0,49.0,Global Intraplate & Oceanic Basins,High
+grid_+06_+092,63,5.54,7.2,26.11,5.1,61.3,93.0,7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-34_-072,62,5.56,6.7,40.59,10.0,120.2,-71.0,-33.0,Pacific Ring of Fire - South America & Andes,High
+grid_+02_+096,62,5.77,8.6,31.23,10.0,95.0,97.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-06_+146,62,5.61,6.9,120.29,10.0,260.0,147.0,-5.0,Global Intraplate & Oceanic Basins,High
+grid_+18_-156,62,5.38,6.9,4.06,-1.01,40.04,-155.0,19.0,Global Intraplate & Oceanic Basins,High
+grid_-24_+168,61,5.63,7.3,11.56,9.0,36.2,169.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-12_+162,61,5.74,7.6,22.75,3.62,95.5,163.0,-11.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+10_-088,61,5.59,7.0,39.56,9.0,135.7,-87.0,11.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-56_-130,61,5.49,6.3,10.08,10.0,13.14,-129.0,-55.0,Global Intraplate & Oceanic Basins,High
+grid_+46_+154,60,5.64,8.1,15.9,9.0,49.6,155.0,47.0,Global Intraplate & Oceanic Basins,High
+grid_+52_-170,60,5.6,6.9,26.5,8.8,112.0,-169.0,53.0,Pacific Ring of Fire - North America & Alaska,High
+grid_-56_-028,60,5.44,6.4,36.13,6.0,170.8,-27.0,-55.0,Mid-Atlantic Ridge & Polar Oceans,High
+grid_-56_-030,59,5.55,6.9,37.66,4.0,224.9,-29.0,-55.0,Mid-Atlantic Ridge & Polar Oceans,High
+grid_-24_-070,59,5.52,7.7,105.17,40.0,125.5,-69.0,-23.0,Pacific Ring of Fire - South America & Andes,High
+grid_+38_+140,59,5.72,7.1,50.84,6.0,166.0,141.0,39.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-18_-074,59,5.54,8.4,37.54,9.03,92.0,-73.0,-17.0,Pacific Ring of Fire - South America & Andes,High
+grid_-20_-072,58,5.58,8.2,22.97,3.32,69.5,-71.0,-19.0,Pacific Ring of Fire - South America & Andes,High
+grid_-02_+132,58,5.57,7.7,26.89,3.03,53.2,133.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-34_-074,58,5.5,6.9,21.88,6.0,46.5,-73.0,-33.0,Pacific Ring of Fire - South America & Andes,High
+grid_+00_+122,57,5.5,7.4,137.67,22.5,483.0,123.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-08_+150,57,5.49,6.6,27.63,2.93,82.2,151.0,-7.0,Global Intraplate & Oceanic Basins,High
+grid_+06_+124,56,5.64,7.5,80.19,5.86,591.2,125.0,7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+18_+144,56,5.62,7.7,285.84,10.0,622.68,145.0,19.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-16_-076,56,5.59,7.2,30.03,1.6,68.2,-75.0,-15.0,Pacific Ring of Fire - South America & Andes,High
+grid_-30_-072,56,5.5,6.8,40.13,5.69,101.15,-71.0,-29.0,Pacific Ring of Fire - South America & Andes,High
+grid_-06_+148,56,5.67,6.6,161.95,10.0,607.5,149.0,-5.0,Global Intraplate & Oceanic Basins,High
+grid_-24_-178,56,5.54,7.4,129.35,10.0,336.96,-177.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-38_+178,55,5.57,7.3,19.31,8.68,97.7,179.0,-37.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-18_+168,54,5.68,7.3,62.82,9.0,239.6,169.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-04_+140,54,5.53,6.3,31.14,6.9,112.7,141.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-16_-178,54,5.51,6.1,121.53,3.7,435.0,-177.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+50_-176,54,5.59,7.0,26.96,5.1,54.15,-175.0,51.0,Global Intraplate & Oceanic Basins,High
+grid_-20_-070,53,5.56,7.8,105.85,33.0,152.5,-69.0,-19.0,Pacific Ring of Fire - South America & Andes,High
+grid_-26_-178,53,5.55,7.8,80.94,10.0,235.4,-177.0,-25.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_+42_+146,52,5.51,6.8,45.52,8.69,103.0,147.0,43.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_+14_-092,52,5.52,6.4,81.34,9.0,252.0,-91.0,15.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_+42_+144,51,5.67,7.0,43.23,9.0,132.33,145.0,43.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_+52_+160,51,5.57,7.0,32.73,7.6,62.6,161.0,53.0,Global Intraplate & Oceanic Basins,High
+grid_-08_+148,51,5.66,6.8,42.03,10.0,73.26,149.0,-7.0,Global Intraplate & Oceanic Basins,High
+grid_-24_-068,51,5.72,7.4,198.16,106.1,270.0,-67.0,-23.0,Pacific Ring of Fire - South America & Andes,High
+grid_+50_-178,51,5.57,6.6,24.0,9.0,67.1,-177.0,51.0,Global Intraplate & Oceanic Basins,High
+grid_-02_+122,50,5.59,7.6,71.33,10.0,175.9,123.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-04_+148,50,5.54,6.4,17.85,4.0,74.5,149.0,-3.0,Global Intraplate & Oceanic Basins,High
+grid_-22_-072,50,5.6,7.7,22.87,4.95,73.56,-71.0,-21.0,Pacific Ring of Fire - South America & Andes,High
+grid_+30_+140,49,5.51,6.3,32.04,7.0,124.52,141.0,31.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-58_-144,49,5.53,6.4,10.23,10.0,21.34,-143.0,-57.0,Global Intraplate & Oceanic Basins,High
+grid_-10_+158,48,5.66,7.0,40.24,8.0,524.3,159.0,-9.0,Global Intraplate & Oceanic Basins,High
+grid_+10_+126,48,5.4,7.6,27.99,8.0,47.71,127.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+10_+124,47,5.49,6.5,31.29,6.4,152.2,125.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-08_+104,47,5.57,6.9,40.35,6.16,74.9,105.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+00_+124,47,5.47,6.3,65.07,10.0,289.0,125.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_+092,47,5.58,6.6,33.91,5.0,100.2,93.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+12_-088,45,5.48,6.5,62.31,7.56,226.1,-87.0,13.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_+20_+120,45,5.55,7.1,21.45,4.0,105.5,121.0,21.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-10_+106,45,5.54,7.7,21.4,0.8,79.1,107.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+06_-084,44,5.82,6.7,13.35,4.07,33.0,-83.0,7.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-06_-106,44,5.68,6.1,10.04,10.0,11.0,-105.0,-5.0,Global Intraplate & Oceanic Basins,High
+grid_-28_-072,44,5.65,6.8,31.28,8.0,75.21,-71.0,-27.0,Pacific Ring of Fire - South America & Andes,High
+grid_+12_+124,44,5.59,6.9,31.69,6.9,111.1,125.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-24_+172,43,5.5,7.2,19.95,8.0,63.1,173.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-02_+124,43,5.56,6.3,38.66,14.74,84.8,125.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+22_+142,43,5.53,7.6,82.32,8.69,260.0,143.0,23.0,Pacific Ring of Fire - East Asia & Japan,High
+grid_-04_+146,42,5.69,6.3,15.87,4.7,46.8,147.0,-3.0,Global Intraplate & Oceanic Basins,High
+grid_+08_-084,42,5.6,6.5,19.0,1.32,44.8,-83.0,9.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-36_-072,42,5.54,7.0,38.14,5.0,109.0,-71.0,-35.0,Pacific Ring of Fire - South America & Andes,High
+grid_+04_-084,41,5.58,6.5,10.99,3.95,36.4,-83.0,5.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_-02_+126,41,5.53,6.7,20.24,7.6,41.1,127.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-04_+144,41,5.7,6.6,16.1,3.02,37.8,145.0,-3.0,Global Intraplate & Oceanic Basins,High
+grid_-06_+128,41,5.65,7.6,112.97,10.0,397.0,129.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-06_+144,41,5.47,6.2,76.1,23.84,192.85,145.0,-5.0,Global Intraplate & Oceanic Basins,High
+grid_-10_+116,41,5.52,6.9,38.65,6.18,229.29,117.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_-24_+178,41,5.76,7.7,558.26,503.8,677.4,179.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,High
+grid_-06_+154,40,5.56,6.4,166.52,8.43,511.7,155.0,-5.0,Global Intraplate & Oceanic Basins,High
+grid_+14_-096,40,5.42,5.8,29.45,4.69,66.85,-95.0,15.0,Pacific Ring of Fire - Central America & Caribbean,High
+grid_+06_+122,40,5.85,7.6,443.57,10.0,640.6,123.0,7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,High
+grid_+34_+072,40,5.52,7.6,11.3,5.0,29.74,73.0,35.0,Himalayan & South Asian Collision Belt,High
+grid_-62_-028,40,5.51,6.7,23.56,7.03,141.88,-27.0,-61.0,Global Intraplate & Oceanic Basins,High
+grid_+08_+094,39,5.41,6.1,22.06,8.82,40.1,95.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-08_+142,39,5.54,7.5,19.78,3.7,335.0,143.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+26_+128,39,5.45,6.1,26.19,4.97,63.9,129.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-04_+098,39,5.56,7.2,23.85,6.78,35.8,99.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+12_+142,38,5.38,6.8,51.23,5.8,184.3,143.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+24_+120,38,5.56,6.4,22.29,3.5,94.7,121.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-06_+132,38,5.53,7.0,18.92,7.13,35.0,133.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+16_-100,38,5.57,7.4,20.03,5.4,59.0,-99.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-22_+170,38,5.72,7.0,56.44,4.0,200.0,171.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+64_-018,38,5.33,5.6,7.21,0.0,10.0,-17.0,65.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+44_+148,37,5.61,7.0,41.62,10.0,143.0,149.0,45.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-18_-072,36,5.47,6.7,51.77,10.0,115.7,-71.0,-17.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+42_-128,36,5.59,6.3,11.19,8.0,29.85,-127.0,43.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+44_-130,36,5.43,6.3,10.0,10.0,10.0,-129.0,45.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-58_-142,36,5.49,6.1,9.98,9.11,10.0,-141.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-36_-180,36,5.45,6.1,26.6,7.8,79.6,-179.0,-35.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-06_+142,35,5.53,7.0,79.95,10.0,137.6,143.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-08_+124,35,5.55,6.4,264.74,3.6,590.05,125.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+00_+098,35,5.46,6.7,61.04,10.0,192.6,99.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-10_+108,35,5.41,6.1,29.42,8.0,95.4,109.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-10_+118,35,5.64,6.6,64.74,10.0,207.6,119.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+44_+150,35,5.47,6.2,41.16,10.0,109.23,151.0,45.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+26_+142,34,5.53,7.4,10.45,3.1,24.0,143.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+32_+140,34,5.52,6.6,34.14,9.28,91.0,141.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+10_+092,34,5.49,6.5,34.54,10.0,112.0,93.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+24_-110,34,5.54,6.7,10.58,5.0,24.03,-109.0,25.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-08_+126,34,5.65,7.3,204.55,8.0,469.8,127.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+02_+092,34,5.59,8.6,22.53,4.78,35.0,93.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-04_+126,34,5.62,6.7,25.13,4.0,65.19,127.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+30_+130,33,5.55,7.1,50.03,10.0,168.6,131.0,31.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-08_+106,33,5.43,7.0,60.94,10.0,163.8,107.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-20_+166,33,5.45,7.3,23.02,10.0,52.6,167.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-16_-072,33,5.65,7.2,122.4,7.0,267.0,-71.0,-15.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+34_+026,33,5.47,6.4,30.56,8.82,88.0,27.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-44_+172,33,5.65,7.8,13.61,2.09,70.0,173.0,-43.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-04_+142,33,5.6,7.6,19.74,8.0,59.55,143.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+38_+072,33,5.65,7.2,54.21,9.0,146.1,73.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+28_+130,32,5.53,6.4,29.83,7.56,64.8,131.0,29.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+48_+156,32,5.6,7.5,31.42,10.0,81.0,157.0,49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+126,32,5.5,6.5,43.79,7.0,177.93,127.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-08_+122,32,5.78,7.3,419.89,10.0,663.6,123.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+26_+054,32,5.52,6.1,12.94,6.0,33.0,55.0,27.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-04_+130,32,5.41,6.1,19.11,1.6,40.0,131.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-30_-180,32,5.64,7.2,156.81,10.0,400.0,-179.0,-29.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+16_-096,32,5.62,6.6,92.91,10.0,166.2,-95.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-04_+128,32,5.47,6.5,29.66,7.0,117.6,129.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+36_+020,32,5.66,6.9,17.09,5.0,35.0,21.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+48_-130,32,5.65,6.8,10.02,7.0,13.7,-129.0,49.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-04_+134,32,5.71,7.1,20.35,0.9,56.8,135.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-14_-078,31,5.65,8.0,38.11,11.0,76.57,-77.0,-13.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-26_-176,31,5.48,6.2,17.38,8.0,39.7,-175.0,-25.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+18_+146,31,5.53,6.1,43.62,8.0,135.75,147.0,19.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+08_-104,31,5.52,5.9,9.84,5.0,10.0,-103.0,9.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+28_+128,31,5.55,6.8,66.3,4.8,251.0,129.0,29.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+22_+122,31,5.55,6.8,21.54,5.7,40.1,123.0,23.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-08_+156,31,5.49,6.4,71.54,10.0,405.8,157.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-16_+168,31,5.54,6.4,58.18,4.0,638.0,169.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-38_+078,30,5.48,6.2,10.03,4.41,16.5,79.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+50_-132,30,5.66,6.6,9.61,2.73,15.0,-131.0,51.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-06_+130,30,5.48,6.3,83.72,10.0,198.8,131.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-10_+124,30,5.53,7.5,22.66,9.8,99.5,125.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-02_+134,30,5.71,7.6,16.87,6.66,63.1,135.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+54_-162,30,5.66,7.2,32.71,9.4,50.35,-161.0,55.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+32_+136,30,5.81,7.4,240.89,10.0,417.3,137.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+18_-108,29,5.73,6.6,15.05,5.0,53.3,-107.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-26_-068,29,5.54,6.6,169.88,10.0,217.0,-67.0,-25.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+36_+144,29,5.73,7.1,23.57,9.0,47.3,145.0,37.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+36_+138,29,5.68,6.6,20.98,9.3,88.7,139.0,37.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+28_+142,29,5.36,5.8,19.21,7.8,55.3,143.0,29.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-62_+154,29,5.72,6.6,10.49,2.0,33.0,155.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_+174,29,5.51,6.5,21.81,5.8,78.17,175.0,-41.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+42_+142,29,5.46,6.9,64.81,29.28,187.0,143.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-24_-072,29,5.65,6.8,27.06,7.2,55.79,-71.0,-23.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+28_+138,28,5.77,7.4,350.02,10.0,519.99,139.0,29.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-26_-072,28,5.45,6.3,38.51,4.6,71.5,-71.0,-25.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-52_+138,28,5.69,6.6,10.28,6.6,24.2,139.0,-51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-16_-074,28,5.54,6.8,74.86,10.0,115.6,-73.0,-15.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-36_-104,28,5.53,5.9,10.01,10.0,10.4,-103.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_+158,28,5.52,7.2,73.53,16.9,177.0,159.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-22_+172,28,5.58,6.4,19.84,8.0,57.6,173.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+26_+140,28,5.65,7.8,301.18,7.4,664.0,141.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+10_+140,28,5.57,6.6,26.66,8.0,61.7,141.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+52_-036,28,5.44,6.0,9.89,7.0,10.0,-35.0,53.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+20_+144,28,5.56,6.9,32.99,5.0,139.2,145.0,21.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-46_+166,27,5.73,7.8,21.71,5.0,109.6,167.0,-45.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+52_-168,27,5.63,6.8,26.16,10.0,75.6,-167.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+52_-172,27,5.67,7.3,49.43,8.0,265.0,-171.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+08_+124,27,5.52,7.1,70.11,6.74,571.4,125.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-62_-026,27,5.73,7.3,14.13,6.0,35.0,-25.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_-014,27,5.41,6.0,9.7,6.51,10.0,-13.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_-082,27,5.73,6.4,18.21,7.1,54.9,-81.0,-1.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+18_-106,26,5.71,7.6,17.89,10.0,41.67,-105.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-02_-016,26,5.54,6.3,9.88,7.0,10.23,-15.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-10_-110,26,5.51,6.1,10.0,10.0,10.0,-109.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+130,26,5.61,7.0,28.64,4.35,140.0,131.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+10_-086,26,5.7,7.6,53.23,8.42,196.73,-85.0,11.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+50_+156,26,5.73,6.9,61.58,12.6,137.0,157.0,51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_-028,26,5.58,6.9,10.88,10.0,33.0,-27.0,1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+36_+136,25,5.68,7.5,20.6,6.0,277.8,137.0,37.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-08_+102,25,5.39,6.3,26.21,8.0,50.4,103.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+14_+146,25,5.46,6.5,22.25,4.0,59.7,147.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+120,25,5.58,6.6,28.51,8.0,276.2,121.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+34_+024,25,5.6,6.5,23.54,6.0,64.53,25.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-46_-078,25,5.38,6.1,11.39,9.0,26.6,-77.0,-45.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-18_+066,25,5.62,6.7,10.47,10.0,20.0,67.0,-17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-18_+176,25,5.44,6.5,25.98,10.0,66.3,177.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+04_+092,25,5.47,6.7,24.07,2.5,46.8,93.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-34_-178,25,5.58,7.4,15.49,9.12,44.26,-177.0,-33.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-30_-114,24,5.63,6.2,9.95,9.0,10.0,-113.0,-29.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_-020,24,5.62,6.6,10.08,5.0,17.0,-19.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-10_+160,24,5.49,6.2,39.01,2.7,166.47,161.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_+120,24,5.53,6.0,80.11,19.5,566.7,121.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-56_-032,24,5.42,7.4,10.5,5.37,19.22,-31.0,-55.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-10_+112,24,5.44,6.0,63.79,10.0,140.72,113.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+24_+124,24,5.58,6.3,37.28,7.89,133.1,125.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+12_+140,24,5.7,6.9,22.47,8.0,104.0,141.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+16_-102,23,5.67,7.2,30.45,5.5,85.5,-101.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-28_-064,23,5.88,7.0,573.74,554.0,609.68,-63.0,-27.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+18_-110,23,5.46,6.3,11.5,6.0,48.5,-109.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+56_-034,23,5.42,5.7,10.22,9.9,13.6,-33.0,57.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-04_+136,23,5.64,7.0,24.34,2.0,56.4,137.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+32_+138,23,5.51,6.5,60.31,8.8,335.78,139.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+40_-126,23,5.79,7.2,14.11,-0.53,28.74,-125.0,41.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-56_-126,23,5.52,6.1,10.75,10.0,24.3,-125.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-10_+110,23,5.48,6.0,50.73,9.45,94.26,111.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+28_-044,23,5.44,6.2,10.0,10.0,10.0,-43.0,29.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+08_-086,23,5.64,6.5,26.43,9.0,73.0,-85.0,9.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-38_-102,23,5.59,6.3,10.7,10.0,23.2,-101.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_+038,23,5.58,6.7,9.03,2.6,12.99,39.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+00_-030,23,5.5,6.5,10.0,10.0,10.0,-29.0,1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+54_+162,23,5.62,6.6,25.94,8.43,74.04,163.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-32_-074,22,5.54,6.4,11.41,4.0,35.0,-73.0,-31.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-50_+164,22,5.7,7.4,15.6,7.1,73.9,165.0,-49.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+04_+096,22,5.41,6.5,30.39,10.0,138.5,97.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-02_+118,22,5.58,7.5,18.24,4.99,54.7,119.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-08_+152,22,5.59,6.6,23.78,3.6,53.5,153.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_+144,22,5.48,6.6,136.87,10.0,521.5,145.0,17.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+16_+146,22,5.5,6.4,40.99,4.23,110.1,147.0,17.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+08_+122,22,5.62,6.7,68.54,9.0,602.93,123.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+28_+140,22,5.55,6.4,29.24,6.0,139.6,141.0,29.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+26_-112,22,5.56,6.6,10.76,9.45,26.1,-111.0,27.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-40_-074,22,5.7,7.2,28.94,13.0,37.8,-73.0,-39.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+54_+168,21,5.57,7.7,12.75,8.0,27.6,169.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-36_+178,21,5.56,6.6,103.23,10.0,240.6,179.0,-35.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-04_+152,21,5.9,8.0,171.96,4.0,476.0,153.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-56_-138,21,5.55,6.3,10.19,10.0,13.92,-137.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-10_+066,21,5.55,6.0,9.9,8.0,10.0,67.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-58_+146,21,5.53,6.1,9.67,4.0,10.0,147.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-18_+178,21,5.71,7.3,212.5,10.0,665.8,179.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+10_+094,21,5.33,6.1,15.68,8.71,23.7,95.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-60_-024,21,5.55,7.0,15.9,8.0,40.0,-23.0,-59.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+50_+176,21,5.77,7.1,33.69,8.2,82.32,177.0,51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_-086,21,5.55,6.1,15.55,6.0,56.2,-85.0,1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-26_-180,20,5.51,6.1,437.24,255.3,512.0,-179.0,-25.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+54_-160,20,5.85,7.8,25.96,12.82,45.22,-159.0,55.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+10_+090,20,5.55,6.6,19.25,10.0,35.0,91.0,11.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+50_-174,20,5.65,6.5,21.68,10.0,45.2,-173.0,51.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+16_-098,20,5.65,7.2,25.48,3.48,48.46,-97.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+26_+056,20,5.48,6.4,15.9,4.0,34.0,57.0,27.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+40_+140,20,5.5,5.9,69.41,14.3,175.8,141.0,41.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+22_-110,20,5.62,6.5,9.49,4.0,10.0,-109.0,23.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+38_+020,20,5.59,6.5,9.14,0.0,22.0,21.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-28_-116,20,5.5,6.1,10.13,7.0,14.0,-115.0,-27.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+54_+164,20,5.62,7.3,16.08,6.0,36.1,165.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-64_+154,19,5.62,6.2,10.61,9.59,20.56,155.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+14_+118,19,5.51,6.4,20.05,9.0,58.5,119.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_+138,19,5.52,6.8,285.56,10.0,438.3,139.0,31.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-10_-076,19,5.41,6.1,135.13,39.7,160.6,-75.0,-9.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+16_-062,19,5.5,6.0,33.14,5.34,118.07,-61.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+22_+094,19,5.66,6.9,60.56,4.0,150.0,95.0,23.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+40_+144,19,5.59,6.9,25.88,10.0,33.4,145.0,41.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+22_-046,19,5.54,6.1,10.0,10.0,10.0,-45.0,23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-32_-070,19,5.57,6.4,84.81,10.0,119.6,-69.0,-31.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-22_+174,19,5.63,7.3,127.99,10.0,535.0,175.0,-21.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-04_+068,19,5.53,7.6,10.09,9.3,12.5,69.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_+022,19,5.39,6.3,12.02,0.1,24.0,23.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-20_+176,19,5.67,6.9,12.19,3.92,33.0,177.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+14_+120,19,5.58,6.2,111.99,21.84,209.39,121.0,15.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+00_-080,19,5.75,7.8,22.65,6.0,64.5,-79.0,1.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-56_-124,19,5.72,6.7,10.11,9.9,12.28,-123.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-36_-106,19,5.49,5.8,10.39,8.32,15.0,-105.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-16_-180,18,5.72,6.7,36.86,6.0,397.3,-179.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+38_+070,18,5.49,6.0,14.56,3.16,47.0,71.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+26_+138,18,5.7,6.5,482.46,435.0,546.0,139.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-16_-078,18,5.57,6.4,22.7,8.69,41.6,-77.0,-15.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+10_+142,18,5.38,5.9,19.98,8.0,37.0,143.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-18_-070,18,5.48,6.2,130.04,33.0,219.5,-69.0,-17.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-02_-014,18,5.62,6.6,11.5,10.0,35.0,-13.0,-1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-28_+178,18,5.87,7.0,593.72,478.0,660.0,179.0,-27.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+36_+026,18,5.52,7.0,32.26,2.0,155.0,27.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-10_+120,18,5.54,6.5,45.47,7.0,221.2,121.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-10_+122,18,5.46,6.7,75.15,10.0,172.0,123.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-08_+120,17,5.52,6.3,443.46,33.0,613.25,121.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+46_+150,17,5.84,7.2,92.62,10.0,180.4,151.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+06_-036,17,5.47,6.5,10.53,8.0,21.0,-35.0,7.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-38_-098,17,5.79,6.7,10.42,10.0,16.83,-97.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+100,17,5.59,6.7,43.85,10.0,144.2,101.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+06_-038,17,5.61,6.7,9.71,5.0,10.0,-37.0,7.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-06_-082,17,5.67,6.3,36.26,10.0,69.06,-81.0,-5.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+40_+078,17,5.51,7.0,15.45,3.43,39.01,79.0,41.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+52_+170,17,5.49,6.4,20.29,10.0,33.0,171.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-18_+174,17,5.67,6.4,16.22,3.5,39.1,175.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-64_+164,17,5.47,6.0,10.61,10.0,20.3,165.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-60_+148,17,5.54,6.5,9.67,6.67,10.0,149.0,-59.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-36_-108,17,5.46,5.9,9.86,5.76,11.8,-107.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_-014,17,5.42,5.9,10.0,10.0,10.0,-13.0,-11.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+44_+146,16,5.42,6.2,103.91,9.61,212.0,147.0,45.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-62_-048,16,5.69,7.7,10.09,9.97,11.07,-47.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_+120,16,5.59,7.0,30.06,6.0,69.65,121.0,17.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-32_+178,16,5.66,6.6,410.82,354.2,487.51,179.0,-31.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+20_+122,16,5.59,6.4,51.47,10.0,181.1,123.0,21.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-10_+154,16,5.48,6.6,15.86,5.0,33.0,155.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+046,16,5.48,6.2,15.2,5.0,33.0,47.0,33.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+30_+142,16,5.56,6.3,15.05,6.0,35.0,143.0,31.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+12_+122,16,5.58,6.1,22.61,8.0,44.2,123.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-62_+160,16,5.55,6.0,11.01,10.0,26.2,161.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+092,16,5.38,5.7,20.21,5.0,44.4,93.0,33.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-36_-110,16,5.49,6.1,10.0,10.0,10.0,-109.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_+112,16,5.4,6.1,12.39,4.8,33.0,113.0,-11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-56_-134,16,5.53,6.7,9.82,7.2,10.0,-133.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+116,16,5.72,7.1,428.69,17.0,639.88,117.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+38_+040,16,5.59,6.4,10.14,3.07,33.0,41.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+00_+118,16,5.4,6.0,35.02,6.53,71.6,119.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+54_+160,16,5.53,6.9,68.0,10.0,188.6,161.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+20_+142,16,5.47,6.5,157.54,10.0,321.2,143.0,21.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+54_+166,15,5.46,6.2,13.03,6.0,27.8,167.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+42_+012,15,5.68,6.6,8.29,2.6,15.4,13.0,43.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+38_+042,15,5.57,7.1,12.25,3.1,65.3,43.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-62_+152,15,5.8,6.6,10.0,10.0,10.0,153.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_-042,15,5.43,6.1,10.0,10.0,10.0,-41.0,31.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+18_-074,15,5.72,7.2,10.15,8.82,13.0,-73.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+32_+142,15,5.29,5.7,13.46,10.0,35.8,143.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-14_+164,15,5.42,6.8,26.23,9.0,49.4,165.0,-13.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-54_+024,15,5.47,6.6,10.0,4.0,14.7,25.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-30_-070,15,5.56,6.0,94.45,10.0,123.0,-69.0,-29.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+06_-074,15,5.33,6.2,133.08,23.3,166.3,-73.0,7.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+54_-158,15,5.72,8.2,24.07,0.8,43.9,-157.0,55.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-40_-094,15,5.41,5.9,10.0,10.0,10.0,-93.0,-39.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+58_-032,15,5.39,5.9,10.0,10.0,10.0,-31.0,59.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+38_+026,15,5.47,6.3,9.74,5.6,20.7,27.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-06_-078,15,5.84,7.5,97.6,22.82,132.0,-77.0,-5.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+12_+146,15,5.61,6.1,16.38,7.0,46.1,147.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+12_+094,15,5.48,5.9,24.76,5.07,46.8,95.0,13.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-14_-016,15,5.25,5.5,9.82,7.3,10.0,-15.0,-13.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+24_+094,15,5.53,6.2,83.06,33.0,124.8,95.0,25.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+10_+042,15,5.28,5.5,9.74,4.6,11.5,43.0,11.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-04_-080,15,5.59,6.8,75.06,35.0,110.5,-79.0,-3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+14_+144,15,5.49,6.3,87.2,10.0,158.7,145.0,15.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+12_+050,15,5.51,6.6,10.33,10.0,15.0,51.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+18_-104,15,5.8,7.6,30.17,10.0,78.5,-103.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+40_-128,15,5.61,6.6,10.74,4.0,25.0,-127.0,41.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+28_+050,15,5.5,6.4,18.27,8.0,33.0,51.0,29.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-64_-060,14,5.37,5.9,9.83,4.61,12.37,-59.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+18_-102,14,5.47,6.1,56.64,33.0,81.8,-101.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-56_-136,14,5.66,6.3,10.0,10.0,10.0,-135.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_+178,14,5.59,6.4,120.59,7.98,225.8,179.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+04_-034,14,5.4,5.7,10.0,10.0,10.0,-33.0,5.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-06_+126,14,5.76,6.8,74.49,2.8,424.6,127.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-14_+066,14,5.42,6.0,10.37,10.0,12.82,67.0,-13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_-134,14,5.66,7.8,12.98,9.0,20.0,-133.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-06_+134,14,5.69,7.3,19.58,10.0,35.0,135.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+30_+056,14,5.54,6.4,11.93,8.0,33.0,57.0,31.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-34_+178,14,5.49,6.2,131.75,7.0,365.0,179.0,-33.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+34_+022,14,5.48,6.6,36.04,10.0,74.4,23.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-42_-088,14,5.39,5.8,9.79,7.09,10.0,-87.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_-022,14,5.94,6.9,10.25,8.55,13.0,-21.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+56_+164,14,5.6,6.4,16.85,8.16,33.3,165.0,57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-56_-132,14,5.43,6.0,10.15,10.0,12.1,-131.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+36_+036,14,5.74,7.8,11.47,5.0,17.86,37.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+10_-064,14,5.64,7.3,100.32,8.1,149.1,-63.0,11.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-02_+138,14,5.49,5.9,19.98,9.9,40.18,139.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-44_-084,14,5.35,5.6,10.01,10.0,10.13,-83.0,-43.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-42_-090,14,5.42,5.8,9.79,7.0,10.0,-89.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+14_+092,14,5.51,7.5,28.91,10.0,65.2,93.0,15.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+14_+056,14,5.35,5.6,10.0,10.0,10.0,57.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-06_+104,14,5.37,5.7,62.76,10.0,163.9,105.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+38_+076,14,5.5,6.3,13.34,5.55,37.17,77.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-28_-176,14,5.52,6.4,13.66,6.2,33.0,-175.0,-27.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+12_-094,14,5.65,6.3,19.55,5.48,35.9,-93.0,13.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-54_+140,14,5.44,5.8,10.1,9.2,12.2,141.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+04_+060,13,5.37,5.6,10.25,10.0,13.19,61.0,5.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_-094,13,5.55,6.1,156.17,96.8,256.7,-93.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+56_-154,13,5.52,6.9,19.59,3.8,38.0,-153.0,57.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-64_-160,13,5.32,5.5,10.0,10.0,10.0,-159.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+46_+146,13,5.68,7.3,412.28,340.9,470.2,147.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-50_-116,13,5.65,6.5,10.04,10.0,10.47,-115.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-14_-112,13,5.47,5.9,10.0,10.0,10.0,-111.0,-13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_-092,13,5.5,5.9,10.0,10.0,10.0,-91.0,1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+12_+040,13,5.32,5.6,10.14,10.0,11.8,41.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_+128,13,5.44,6.0,66.3,9.0,143.94,129.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-66_+178,13,5.43,5.9,10.0,10.0,10.0,179.0,-65.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_+144,13,5.68,7.7,24.85,10.0,35.0,145.0,39.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+18_-066,13,5.46,6.1,32.33,7.0,94.0,-65.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-06_+122,13,5.84,7.5,22.03,0.9,33.0,123.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-38_-180,13,5.52,7.1,26.46,10.0,36.1,-179.0,-37.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-02_-078,13,5.59,7.1,162.7,20.54,248.3,-77.0,-1.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+34_-036,13,5.67,6.3,10.46,10.0,16.01,-35.0,35.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-60_-030,13,5.51,6.0,28.52,10.0,227.39,-29.0,-59.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+32_-116,13,5.6,7.2,8.47,5.78,10.01,-115.0,33.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+24_+142,13,5.62,6.3,56.25,8.0,510.0,143.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-40_+174,13,5.44,6.1,139.46,5.42,260.9,175.0,-39.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-10_-072,13,6.19,6.9,588.09,534.3,644.9,-71.0,-9.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-24_-116,13,5.5,6.8,10.15,10.0,12.0,-115.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-28_-180,13,5.54,6.3,216.95,10.0,395.1,-179.0,-27.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+46_+144,13,5.66,6.5,402.58,359.6,474.0,145.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+30_+066,13,5.55,6.4,11.87,9.0,24.3,67.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+32_+104,13,5.53,6.1,10.18,4.0,18.0,105.0,33.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_+078,13,5.59,6.4,10.0,10.0,10.0,79.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-32_+058,13,5.52,6.0,10.0,10.0,10.0,59.0,-31.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+14_-062,13,5.66,7.4,59.39,5.7,160.3,-61.0,15.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+36_+068,13,5.43,6.1,45.23,1.6,307.31,69.0,37.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+24_+140,13,5.29,5.6,118.86,15.45,209.9,141.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-46_-082,13,5.72,6.4,9.88,8.5,10.0,-81.0,-45.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+52_-164,13,5.44,5.9,18.82,7.8,33.0,-163.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+30_+102,13,5.82,7.9,12.55,3.0,21.7,103.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-36_-018,13,5.72,7.0,10.0,10.0,10.0,-17.0,-35.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-54_+012,12,5.34,5.8,10.0,10.0,10.0,13.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-28_-114,12,5.44,6.6,10.0,10.0,10.0,-113.0,-27.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-18_-014,12,5.36,5.5,10.0,10.0,10.0,-13.0,-17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-48_+164,12,5.64,7.1,12.41,5.0,20.0,165.0,-47.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+44_+026,12,5.4,5.9,115.01,32.0,151.0,27.0,45.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-64_-162,12,5.58,6.1,10.4,10.0,14.85,-161.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+064,12,5.73,7.7,20.76,10.0,52.0,65.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-06_+124,12,5.59,6.3,266.89,4.0,576.0,125.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+04_-078,12,5.7,7.2,39.92,10.0,122.0,-77.0,5.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-48_+032,12,5.58,6.2,11.04,10.0,22.5,33.0,-47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_+158,12,5.63,6.0,10.0,10.0,10.0,159.0,-53.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-10_+114,12,5.52,6.1,65.33,10.0,128.0,115.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+00_+092,12,5.6,8.2,19.34,8.0,35.0,93.0,1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+04_+122,12,6.19,7.3,567.69,516.0,635.4,123.0,5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+34_+044,12,5.62,7.3,12.72,6.0,19.0,45.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+06_-078,12,5.58,6.5,19.19,5.96,33.0,-77.0,7.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-56_+158,12,5.82,7.1,12.17,10.0,26.0,159.0,-55.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+20_+146,12,5.57,6.3,15.85,8.93,40.0,147.0,21.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+06_+090,12,5.5,7.5,27.15,6.7,42.8,91.0,7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-38_+176,12,5.45,5.8,118.85,5.0,281.5,177.0,-37.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-44_-018,12,5.39,5.7,9.77,7.2,10.0,-17.0,-43.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+08_+090,12,5.44,6.0,22.22,10.0,36.6,91.0,9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_+022,12,5.35,5.8,10.25,7.0,16.0,23.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+10_+144,11,5.77,6.9,18.01,7.0,37.9,145.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-48_+100,11,5.51,5.8,10.0,10.0,10.0,101.0,-47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-30_-068,11,5.58,6.0,123.72,22.2,176.5,-67.0,-29.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-30_-074,11,5.98,6.9,12.47,6.0,19.8,-73.0,-29.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-24_-066,11,5.59,6.4,60.53,5.0,289.5,-65.0,-23.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-36_+054,11,5.48,6.1,10.0,10.0,10.0,55.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+10_+138,11,5.44,6.0,20.2,10.0,48.16,139.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-56_-128,11,5.45,5.8,10.01,10.0,10.15,-127.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+28_-114,11,6.07,7.0,10.55,9.0,14.0,-113.0,29.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_+118,11,5.55,6.3,22.89,10.0,49.3,119.0,-11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+02_+124,11,5.48,6.3,136.06,33.0,231.0,125.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-32_-014,11,5.49,5.9,9.45,4.0,10.0,-13.0,-31.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-10_-080,11,5.47,5.8,36.09,22.0,57.59,-79.0,-9.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+14_-046,11,5.51,6.0,10.0,10.0,10.0,-45.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+60_+166,11,5.77,7.6,14.24,10.0,28.7,167.0,61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+02_+098,11,5.51,6.3,107.96,6.0,204.0,99.0,3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-60_-018,11,5.6,6.2,10.04,8.4,12.0,-17.0,-59.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-58_-024,11,5.59,6.8,13.51,10.0,33.0,-23.0,-57.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+58_-154,11,5.8,7.1,92.49,62.9,143.3,-153.0,59.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-08_-076,11,5.71,7.0,144.87,108.72,155.98,-75.0,-7.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-30_-112,11,5.48,6.0,10.35,10.0,12.6,-111.0,-29.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+22_+092,11,5.51,6.2,30.74,10.0,58.96,93.0,23.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-62_-046,11,5.38,5.8,13.48,10.0,23.93,-45.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-06_+068,11,5.35,5.7,10.0,10.0,10.0,69.0,-5.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-04_-104,11,5.4,5.8,10.0,10.0,10.0,-103.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-30_-064,11,5.99,7.0,588.7,553.9,609.8,-63.0,-29.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+24_+128,11,5.55,7.0,15.17,6.9,35.0,129.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-24_+068,10,5.33,5.8,10.0,10.0,10.0,69.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-50_+120,10,5.28,5.4,10.0,10.0,10.0,121.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_+082,10,5.69,6.7,9.73,4.0,13.0,83.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-04_-078,10,5.74,7.5,122.57,96.44,153.41,-77.0,-3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-38_+052,10,5.55,6.2,9.46,5.3,10.0,53.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-52_+114,10,5.45,5.7,10.0,10.0,10.0,115.0,-51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-50_+126,10,5.37,5.8,10.0,10.0,10.0,127.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+128,10,5.86,7.2,25.89,4.45,53.0,129.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-08_-108,10,5.45,5.6,10.5,10.0,15.03,-107.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-50_+124,10,5.4,5.5,10.0,10.0,10.0,125.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+42_-130,10,5.31,5.7,12.04,10.0,21.3,-129.0,43.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+00_+090,10,5.43,6.0,9.5,5.0,10.0,91.0,1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_+104,10,5.39,5.7,12.27,10.0,32.7,105.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+10_+056,10,5.61,6.3,9.59,7.89,10.0,57.0,11.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_+026,10,5.46,6.1,10.0,10.0,10.0,27.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+24_+100,10,5.56,6.1,18.8,7.0,33.0,101.0,25.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+30_+050,10,5.31,5.4,11.79,4.1,33.0,51.0,31.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-04_+102,10,5.69,7.3,144.76,25.2,582.1,103.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+50_-172,10,5.42,5.8,34.51,18.0,48.0,-171.0,51.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+18_+094,10,5.49,6.6,21.05,6.0,60.78,95.0,19.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-36_-016,10,5.45,5.9,10.0,10.0,10.0,-15.0,-35.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+56_-150,10,5.63,7.9,15.66,5.28,34.39,-149.0,57.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-04_+118,10,5.57,6.2,17.76,8.97,37.28,119.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+08_-040,10,5.53,6.6,9.5,6.0,10.0,-39.0,9.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-08_+112,10,5.7,7.0,483.72,33.0,598.5,113.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-04_-082,10,5.45,6.3,29.06,8.0,64.3,-81.0,-3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-52_-116,10,5.69,6.1,10.0,10.0,10.0,-115.0,-51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-22_+032,10,5.58,7.0,12.01,7.0,26.1,33.0,-21.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-16_+066,10,5.42,5.6,10.0,10.0,10.0,67.0,-15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_-086,10,5.44,5.8,10.0,10.0,10.0,-85.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+54_-036,10,5.35,5.6,9.71,7.15,10.0,-35.0,55.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-26_-116,10,5.59,6.1,10.0,10.0,10.0,-115.0,-25.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-34_-070,10,5.39,5.8,80.79,3.8,150.19,-69.0,-33.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-46_-080,10,5.73,6.4,13.9,10.0,33.0,-79.0,-45.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+28_+080,10,5.4,5.7,21.75,10.0,33.11,81.0,29.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-02_-018,10,5.76,7.1,10.3,10.0,12.0,-17.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+26_+052,10,5.37,5.8,12.97,10.0,26.7,53.0,27.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-38_-100,10,5.51,5.8,11.04,10.0,20.35,-99.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_+176,10,5.77,6.5,34.01,1.1,159.0,177.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-20_+174,10,5.66,6.5,21.8,10.0,35.0,175.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-60_+158,10,5.74,6.8,11.5,10.0,23.19,159.0,-59.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+130,10,5.53,6.0,12.14,5.39,33.0,131.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-56_+000,10,5.71,6.5,10.1,10.0,11.0,1.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-38_-096,9,5.38,5.7,10.0,10.0,10.0,-95.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-64_+170,9,5.41,5.8,9.5,5.5,10.0,171.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-40_+176,9,5.48,6.3,71.87,10.0,163.0,177.0,-39.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-58_-152,9,5.28,5.4,8.89,0.0,10.0,-151.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+34_+080,9,5.59,7.2,11.21,9.0,21.9,81.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-04_+036,9,5.36,5.9,9.78,8.0,10.0,37.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+56_+162,9,5.71,6.6,24.17,10.0,60.96,163.0,57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+10_-044,9,5.92,6.7,9.56,6.0,10.0,-43.0,11.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+14_+052,9,5.54,6.2,10.03,10.0,10.3,53.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+34_+074,9,5.4,6.3,25.57,10.0,43.6,75.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-40_+078,9,5.66,6.4,10.3,10.0,12.72,79.0,-39.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+56_-036,9,5.27,5.5,10.15,10.0,11.36,-35.0,57.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+34_+070,9,5.54,6.3,77.88,5.9,117.4,71.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+56_-156,9,5.44,6.5,45.14,37.8,63.2,-155.0,57.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+42_-030,9,5.44,5.9,10.0,10.0,10.0,-29.0,43.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-02_+066,9,5.47,5.8,10.72,10.0,16.46,67.0,-1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+28_+056,9,5.37,6.0,24.72,4.0,72.1,57.0,29.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+48_+152,9,5.47,6.0,132.79,70.0,207.0,153.0,49.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-56_+006,9,5.48,6.2,10.11,10.0,11.0,7.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_-166,9,5.6,6.6,39.81,19.0,67.0,-165.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-24_-064,9,5.57,5.9,537.7,516.6,571.45,-63.0,-23.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-56_-002,9,5.4,5.8,10.0,10.0,10.0,-1.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+086,9,5.88,7.3,13.1,7.0,22.91,87.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+34_+092,9,5.38,5.6,11.14,10.0,18.74,93.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-26_-118,9,5.44,5.7,10.0,10.0,10.0,-117.0,-25.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+58_-138,9,5.79,6.3,6.85,1.0,10.0,-137.0,59.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-14_-076,9,5.44,6.1,71.01,10.0,106.0,-75.0,-13.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-42_+176,9,5.4,5.9,25.45,9.08,53.7,177.0,-41.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-42_-018,9,5.47,5.9,10.52,10.0,14.7,-17.0,-41.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-16_-014,9,5.41,6.0,10.0,10.0,10.0,-13.0,-15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_-092,9,5.38,5.7,10.19,10.0,11.68,-91.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_+152,9,6.24,7.7,524.46,426.6,656.2,153.0,53.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-18_-016,9,5.34,6.3,9.91,9.2,10.0,-15.0,-17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+144,9,5.6,6.6,83.96,9.63,190.4,145.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-24_-114,9,5.48,6.0,10.52,9.98,14.7,-113.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-58_-124,9,5.88,6.3,10.0,10.0,10.0,-123.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_-046,9,5.42,6.0,10.0,10.0,10.0,-45.0,27.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-32_-068,9,5.49,6.2,97.24,27.0,141.0,-67.0,-31.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+18_-068,9,5.67,6.4,27.79,7.0,113.0,-67.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+14_+122,9,5.42,6.1,24.85,6.6,59.5,123.0,15.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-18_+064,9,5.68,6.3,9.53,6.0,10.0,65.0,-17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_-076,9,5.51,5.8,80.33,32.0,129.4,-75.0,-11.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+10_-062,9,5.6,6.1,44.43,31.75,53.0,-61.0,11.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+16_-106,9,5.59,6.4,12.78,10.0,33.0,-105.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-42_+084,9,5.38,5.5,10.0,10.0,10.0,85.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-48_-012,9,5.34,5.6,10.0,10.0,10.0,-11.0,-47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-56_-120,9,5.46,5.9,10.67,10.0,16.05,-119.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+12_-046,9,5.42,5.6,10.0,10.0,10.0,-45.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+54_+158,9,5.76,6.9,157.46,35.0,344.0,159.0,55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-60_-152,9,5.6,6.0,10.33,10.0,13.0,-151.0,-59.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_+116,9,5.59,6.1,24.23,15.0,35.0,117.0,-11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-26_-070,9,5.48,5.8,87.24,55.0,118.96,-69.0,-25.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-14_+064,9,5.5,5.8,10.0,10.0,10.0,65.0,-13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-30_+060,9,5.41,5.9,9.67,7.0,10.0,61.0,-29.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_-068,9,5.56,6.4,7.0,3.0,10.0,-67.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+24_+126,9,5.48,6.0,31.0,10.0,49.02,127.0,25.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+36_+028,9,5.51,6.0,20.84,5.0,63.0,29.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-48_+098,9,5.81,6.6,9.0,1.0,10.0,99.0,-47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+096,8,5.7,6.9,14.29,7.0,24.2,97.0,33.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+00_+066,8,5.35,5.5,10.0,10.0,10.0,67.0,1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+028,8,5.58,6.8,13.2,8.0,25.6,29.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-16_+172,8,5.33,6.0,159.89,10.0,605.6,173.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-34_+056,8,5.58,6.0,10.05,4.73,15.66,57.0,-33.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+70_-008,8,5.58,6.2,10.9,10.0,15.0,-7.0,71.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-50_-010,8,5.49,5.7,10.0,10.0,10.0,-9.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-46_+094,8,5.4,6.1,9.14,3.1,10.0,95.0,-45.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_+008,8,5.75,6.8,10.65,10.0,12.0,9.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+084,8,5.38,6.1,14.66,10.0,25.71,85.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-34_-112,8,5.76,7.0,11.48,10.0,16.54,-111.0,-33.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+62_-146,8,5.38,5.6,4.47,0.4,20.4,-145.0,63.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+40_-030,8,5.31,5.6,10.0,10.0,10.0,-29.0,41.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-58_-148,8,5.49,6.0,9.25,4.0,10.0,-147.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_+042,8,5.45,6.3,10.0,10.0,10.0,43.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+02_-076,8,5.62,6.0,43.19,10.0,178.6,-75.0,3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-18_+172,8,5.6,6.1,21.81,8.0,37.5,173.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-42_+080,8,5.71,6.4,9.75,9.0,10.0,81.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-66_+176,8,5.32,5.5,11.04,10.0,18.3,177.0,-65.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_+118,8,5.55,6.2,29.46,9.48,54.5,119.0,17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-04_+122,8,5.51,5.7,19.74,10.0,33.0,123.0,-3.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+50_+086,8,5.84,7.3,10.75,10.0,16.0,87.0,51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+08_-078,8,5.64,6.5,32.61,10.0,85.5,-77.0,9.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-54_-136,8,5.5,6.2,10.0,10.0,10.0,-135.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+16_-048,8,5.42,5.7,10.0,10.0,10.0,-47.0,17.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+04_+062,8,5.46,5.6,9.25,4.0,10.0,63.0,5.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-26_-014,8,5.38,5.5,9.99,9.91,10.0,-13.0,-25.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-48_-014,8,5.65,6.0,9.55,6.42,10.0,-13.0,-47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_-120,8,5.55,6.0,7.5,0.43,12.2,-119.0,39.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+50_-130,8,5.7,6.3,9.82,6.58,12.0,-129.0,51.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+24_+096,8,5.61,6.0,21.12,8.0,52.7,97.0,25.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-60_-140,8,5.29,5.5,10.0,10.0,10.0,-139.0,-59.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_-120,8,5.42,5.8,10.0,10.0,10.0,-119.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+18_-082,8,5.65,6.8,10.0,10.0,10.0,-81.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+12_+056,8,5.4,5.6,10.0,10.0,10.0,57.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-26_-112,8,5.49,6.0,9.95,9.57,10.0,-111.0,-25.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-52_+162,8,5.55,6.1,9.53,8.0,10.0,163.0,-51.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+52_+174,8,5.6,6.2,46.94,5.19,115.8,175.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+06_-080,8,5.36,5.7,9.72,7.0,11.0,-79.0,7.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+34_+088,8,5.41,5.8,10.96,10.0,17.7,89.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-42_+172,8,5.4,6.3,117.54,18.04,229.8,173.0,-41.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+36_+094,8,5.69,6.3,11.05,4.0,19.0,95.0,37.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+42_+140,8,5.66,6.6,73.71,10.0,123.6,141.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-50_-118,8,5.6,5.9,10.0,10.0,10.0,-117.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+60_-152,8,5.51,6.2,82.38,63.1,114.2,-151.0,61.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+12_+048,8,5.45,5.8,10.0,10.0,10.0,49.0,13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-06_-108,8,5.44,6.1,10.0,10.0,10.0,-107.0,-5.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+62_-152,8,5.35,5.8,91.64,15.7,136.6,-151.0,63.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+36_-034,8,5.47,5.9,9.0,2.0,10.0,-33.0,37.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-06_-014,8,5.34,5.6,10.0,10.0,10.0,-13.0,-5.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-12_+122,8,5.4,6.1,33.77,10.0,51.0,123.0,-11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+26_+124,8,5.85,6.9,120.7,33.0,224.9,125.0,27.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+14_-098,8,5.65,7.4,25.32,4.21,49.7,-97.0,15.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+50_+158,8,5.65,6.2,40.2,9.0,76.3,159.0,51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_-018,8,5.46,5.7,10.0,10.0,10.0,-17.0,1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-62_-044,8,5.61,7.6,10.7,10.0,15.61,-43.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+18_-078,8,5.67,6.8,10.39,2.1,19.0,-77.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+34_+132,8,5.81,6.8,18.61,5.63,50.0,133.0,35.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-28_-068,8,5.35,5.7,146.66,35.6,174.2,-67.0,-27.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+38_+044,8,5.62,6.0,12.94,10.0,19.1,45.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+16_-086,8,5.66,6.1,12.75,7.0,33.0,-85.0,17.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-56_+146,8,5.85,6.9,9.05,3.0,11.0,147.0,-55.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+28_+058,8,5.89,6.7,15.03,10.0,33.0,59.0,29.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+38_+014,7,5.39,5.8,248.19,212.0,279.0,15.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+34_-038,7,5.54,6.2,10.0,10.0,10.0,-37.0,35.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+52_-032,7,5.71,7.1,12.03,10.0,17.56,-31.0,53.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-54_+010,7,5.37,5.7,10.0,10.0,10.0,11.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+118,7,5.56,6.5,251.48,10.89,529.0,119.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+52_-132,7,5.76,6.6,10.86,9.0,17.0,-131.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-08_-082,7,5.56,6.3,18.04,10.0,35.0,-81.0,-7.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-38_-112,7,5.39,5.7,10.0,10.0,10.0,-111.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_-174,7,5.41,5.8,115.95,10.0,252.7,-173.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+22_+144,7,5.39,5.7,48.11,20.0,89.55,145.0,23.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+30_+086,7,5.34,5.8,12.04,6.77,25.3,87.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-16_+178,7,5.61,6.2,24.5,10.0,37.7,179.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+30_-116,7,5.4,5.7,9.92,6.98,12.5,-115.0,31.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-28_+066,7,5.43,5.7,10.0,10.0,10.0,67.0,-27.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-34_-110,7,5.56,6.7,10.0,10.0,10.0,-109.0,-33.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+24_-112,7,5.59,6.3,11.0,10.0,17.0,-111.0,25.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-06_+138,7,5.41,5.8,20.0,10.0,33.0,139.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-52_+160,7,5.69,6.6,10.0,10.0,10.0,161.0,-51.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+54_-136,7,6.1,7.5,13.73,8.7,20.0,-135.0,55.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-30_-014,7,5.4,5.8,9.13,3.9,10.0,-13.0,-29.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+22_+070,7,5.8,7.7,10.86,10.0,16.0,71.0,23.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+34_-004,7,5.6,6.4,8.86,0.0,12.0,-3.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-12_+120,7,5.59,6.0,20.83,8.4,33.0,121.0,-11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-56_+142,7,5.64,6.0,10.0,10.0,10.0,143.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-28_+070,7,5.44,5.6,10.0,10.0,10.0,71.0,-27.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-18_-172,7,5.64,6.2,12.55,9.0,22.83,-171.0,-17.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+36_+022,7,5.86,6.7,61.06,9.4,107.0,23.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-18_-076,7,5.59,6.1,25.32,10.0,39.0,-75.0,-17.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+02_-084,7,5.33,5.6,12.14,10.0,25.0,-83.0,3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+08_-080,7,5.6,6.1,49.05,33.0,65.0,-79.0,9.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+22_+124,7,5.6,6.4,17.49,5.8,39.2,125.0,23.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+18_-100,7,5.83,7.1,62.64,48.0,90.1,-99.0,19.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-40_+046,7,5.6,6.2,10.0,10.0,10.0,47.0,-39.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+132,7,5.74,6.3,31.75,19.0,44.42,133.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+60_+164,7,5.63,6.6,15.94,5.0,30.41,165.0,61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-54_+016,7,5.41,5.8,10.64,10.0,14.46,17.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+096,7,5.61,6.1,21.56,9.0,35.0,97.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-54_+018,7,5.4,5.7,10.0,10.0,10.0,19.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+66_-020,7,5.56,6.0,10.0,10.0,10.0,-19.0,67.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-46_-074,7,5.57,6.2,23.26,4.4,49.7,-73.0,-45.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-50_+162,7,5.61,6.3,11.41,10.0,15.1,163.0,-49.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-10_+126,7,5.66,6.2,24.93,5.5,49.0,127.0,-9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+34_+028,7,5.71,5.9,32.48,10.0,55.8,29.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-24_-014,7,5.33,5.5,10.0,10.0,10.0,-13.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-38_-072,7,5.56,6.0,77.23,8.0,150.4,-71.0,-37.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+42_+130,7,6.24,7.3,548.77,513.4,577.7,131.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-46_+034,7,5.76,6.0,10.86,10.0,16.0,35.0,-45.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+14_+054,7,5.29,5.8,10.0,10.0,10.0,55.0,15.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-64_-158,7,5.3,5.5,10.0,10.0,10.0,-157.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+40_+048,7,5.73,6.8,38.71,13.23,64.66,49.0,41.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+34_+060,7,5.71,6.3,15.15,8.0,40.8,61.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-44_+038,7,5.64,6.8,12.57,10.0,28.0,39.0,-43.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+36_+002,7,5.66,6.8,10.2,8.0,12.0,3.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+34_+076,6,5.3,5.4,57.34,10.0,96.76,77.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-08_+066,6,5.38,5.7,9.99,9.93,10.0,67.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_+074,6,5.4,5.7,40.85,10.0,130.7,75.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+10_+122,6,5.42,5.6,15.41,10.0,29.0,123.0,11.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-22_-068,6,5.42,5.7,201.42,175.25,231.48,-67.0,-21.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+02_+064,6,5.43,5.7,10.0,10.0,10.0,65.0,3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+70_-016,6,5.43,5.7,10.0,10.0,10.0,-15.0,71.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-38_+050,6,5.58,6.0,10.0,10.0,10.0,51.0,-37.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_-162,6,5.6,6.4,14.57,7.96,33.0,-161.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+40_+046,6,5.38,5.6,15.27,10.0,22.65,47.0,41.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+08_+138,6,5.47,5.9,17.89,10.0,35.0,139.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+48_-128,6,6.05,6.5,16.5,10.0,23.7,-127.0,49.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-08_-078,6,5.47,6.0,88.25,17.59,134.5,-77.0,-7.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-20_+066,6,5.53,6.3,9.33,6.0,10.0,67.0,-19.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+088,6,5.55,6.9,28.61,9.87,50.0,89.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+44_-028,6,5.33,5.5,10.0,10.0,10.0,-27.0,45.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-12_-080,6,5.35,5.7,44.07,27.2,65.0,-79.0,-11.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+38_+054,6,5.55,7.0,25.3,10.0,42.8,55.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-16_-172,6,5.32,5.6,14.17,10.0,35.0,-171.0,-15.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+20_-046,6,5.38,5.5,10.0,10.0,10.0,-45.0,21.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+34_+136,6,5.35,5.6,171.91,10.0,328.96,137.0,35.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-02_-026,6,5.57,5.8,11.98,10.0,21.9,-25.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+16_+122,6,5.28,5.4,35.59,19.0,53.9,123.0,17.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-44_-076,6,5.37,5.6,18.67,10.0,33.0,-75.0,-43.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+56_-158,6,5.98,6.9,51.45,11.4,76.5,-157.0,57.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+32_+094,6,5.38,5.9,26.63,8.0,35.0,95.0,33.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-04_-014,6,5.32,5.5,10.0,10.0,10.0,-13.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-20_+064,6,5.52,6.3,10.0,10.0,10.0,65.0,-19.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+028,6,5.45,6.2,9.17,4.0,11.0,29.0,-1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+132,6,5.63,6.1,27.32,9.0,39.74,133.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+00_-078,6,5.98,7.3,100.19,2.54,170.0,-77.0,1.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+32_-040,6,5.67,6.0,9.83,9.0,10.0,-39.0,33.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+28_+094,6,5.72,6.4,22.55,8.0,39.5,95.0,29.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+24_+092,6,5.63,6.7,41.68,32.0,55.0,93.0,25.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+28_+084,6,5.92,7.8,9.7,8.22,10.0,85.0,29.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-24_+174,6,5.55,5.9,18.83,10.0,33.0,175.0,-23.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-62_-022,6,6.05,7.4,10.7,10.0,13.0,-21.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_+172,6,5.62,6.2,27.0,15.0,35.1,173.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-58_-140,6,5.65,6.5,10.83,10.0,15.0,-139.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+26_+092,6,5.45,6.0,32.74,15.0,43.3,93.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-22_-066,6,5.8,6.2,298.75,261.6,352.7,-65.0,-21.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+26_+100,6,5.6,6.0,18.28,10.0,35.68,101.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+00_-026,6,5.6,6.1,10.0,10.0,10.0,-25.0,1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+46_+140,6,5.63,6.2,9.83,5.0,14.0,141.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+26_+090,6,5.52,6.1,14.5,10.0,33.0,91.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+02_+062,6,5.33,5.5,10.0,10.0,10.0,63.0,3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_+128,6,5.85,6.7,52.07,10.0,145.0,129.0,31.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-42_+088,6,5.47,5.7,10.0,10.0,10.0,89.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-10_+148,6,5.47,5.6,40.71,6.0,118.4,149.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-62_-036,6,5.77,7.0,11.13,10.0,13.76,-35.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+20_+098,6,5.87,6.9,12.16,5.0,22.0,99.0,21.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-66_-180,6,5.77,6.2,10.0,10.0,10.0,-179.0,-65.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+44_-030,6,5.35,5.6,10.0,10.0,10.0,-29.0,45.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+62_-024,6,5.32,5.6,9.17,5.0,10.0,-23.0,63.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-10_+150,6,5.4,5.7,19.15,10.0,39.0,151.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+22_+100,6,5.8,6.1,8.67,5.0,11.0,101.0,23.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+02_-032,6,5.35,5.5,10.0,10.0,10.0,-31.0,3.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+34_+082,6,5.92,6.9,11.35,10.0,15.11,83.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-62_-020,6,5.62,6.4,9.86,9.16,10.0,-19.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-06_+140,6,5.53,5.7,38.83,10.0,107.0,141.0,-5.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+08_+056,6,5.42,5.6,10.0,10.0,10.0,57.0,9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+50_-170,6,5.38,5.6,15.21,10.0,25.9,-169.0,51.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+38_+096,6,5.45,5.7,12.0,10.0,22.0,97.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+34_-118,6,5.89,7.1,7.72,5.04,10.5,-117.0,35.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-46_-076,6,5.38,5.7,18.3,10.0,36.3,-75.0,-45.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-02_+148,6,5.83,6.4,15.83,8.0,33.0,149.0,-1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+52_-176,6,5.42,5.8,122.17,10.0,218.0,-175.0,53.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+28_+104,6,5.4,5.8,13.99,6.0,32.24,105.0,29.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-28_-070,6,5.32,5.4,63.14,10.0,101.0,-69.0,-27.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+42_+138,6,5.47,5.9,146.57,8.0,220.9,139.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+20_-110,6,5.62,5.9,10.23,10.0,11.4,-109.0,21.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-14_+044,6,5.42,5.9,11.17,10.0,17.0,45.0,-13.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-40_-016,6,5.32,5.4,10.0,10.0,10.0,-15.0,-39.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+44_+010,6,5.53,6.0,11.12,5.1,28.3,11.0,45.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+40_+024,6,5.53,6.9,14.49,2.5,35.0,25.0,41.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+42_+148,6,5.42,5.9,45.23,33.0,61.92,149.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-56_-034,6,5.4,5.8,8.96,3.35,13.64,-33.0,-55.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+34_+098,6,5.8,7.3,10.0,10.0,10.0,99.0,35.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-02_-024,6,5.87,6.5,10.0,10.0,10.0,-23.0,-1.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+32_+044,6,5.33,5.5,13.83,10.0,33.0,45.0,33.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-28_+074,6,5.33,5.5,10.0,10.0,10.0,75.0,-27.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-40_-076,6,6.02,6.7,17.33,7.0,35.0,-75.0,-39.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-56_-146,5,5.35,5.5,10.0,10.0,10.0,-145.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+04_-074,5,5.62,6.1,96.57,8.9,436.5,-73.0,5.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+72_+002,5,5.38,5.5,10.0,10.0,10.0,3.0,73.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+14_-090,5,5.42,6.2,68.38,7.78,272.0,-89.0,15.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+02_-086,5,5.42,5.6,17.44,9.0,34.9,-85.0,3.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+52_+156,5,5.5,6.4,142.08,116.0,167.8,157.0,53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+36_-026,5,5.78,6.3,10.4,8.0,14.0,-25.0,37.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+46_+142,5,5.3,5.5,209.3,10.0,348.9,143.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-30_-176,5,5.36,5.6,10.17,9.9,10.93,-175.0,-29.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+50_+100,5,5.64,6.7,12.44,10.0,18.0,101.0,51.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_+136,5,5.46,5.6,18.72,3.5,30.0,137.0,-1.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-62_-056,5,5.84,6.9,11.0,10.0,15.0,-55.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+08_+136,5,5.56,6.2,29.67,10.0,51.1,137.0,9.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_+76_+006,5,5.34,5.4,10.0,10.0,10.0,7.0,77.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-56_-056,5,5.42,5.6,17.57,10.0,40.5,-55.0,-55.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-04_+028,5,5.54,5.9,10.2,10.0,11.0,29.0,-3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+08_-072,5,5.3,5.6,16.43,0.5,33.0,-71.0,9.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-38_-018,5,5.62,6.6,10.0,10.0,10.0,-17.0,-37.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_-56_-148,5,5.56,5.8,9.8,5.0,14.0,-147.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+20_+118,5,5.34,5.9,10.74,10.0,13.7,119.0,21.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+46_+156,5,5.44,6.0,15.0,10.0,35.0,157.0,47.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+40_+018,5,5.62,6.4,14.4,10.0,22.0,19.0,41.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-50_+116,5,5.28,5.5,10.0,10.0,10.0,117.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+48_-132,5,5.32,5.5,10.0,10.0,10.0,-131.0,49.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+34_+134,5,5.5,5.8,155.21,10.34,372.2,135.0,35.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+04_-080,5,5.9,6.7,12.18,7.0,21.9,-79.0,5.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+32_+084,5,5.68,6.4,8.88,5.4,10.0,85.0,33.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+38_+028,5,5.4,5.8,6.48,3.1,10.0,29.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-40_-092,5,5.74,6.0,9.4,7.0,10.0,-91.0,-39.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-24_+082,5,5.42,5.6,10.47,10.0,12.35,83.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+46_+148,5,5.4,5.9,251.14,152.0,389.0,149.0,47.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+14_-106,5,5.36,5.5,14.58,10.0,32.9,-105.0,15.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_-26_-066,5,5.68,6.3,10.64,5.0,17.0,-65.0,-25.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-54_-006,5,5.5,5.6,10.0,10.0,10.0,-5.0,-53.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+78_-116,5,5.38,5.7,10.0,10.0,10.0,-115.0,79.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+02_+090,5,5.54,6.2,14.3,10.0,25.0,91.0,3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-20_+178,5,5.98,7.9,387.55,17.49,670.81,179.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-20_-014,5,5.44,5.7,11.53,10.0,16.43,-13.0,-19.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-20_+172,5,5.84,7.1,17.18,10.0,33.0,173.0,-19.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_+46_-028,5,5.52,5.9,8.6,5.0,10.0,-27.0,47.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+56_-170,5,5.32,5.4,9.42,5.5,11.62,-169.0,57.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+64_-024,5,5.32,5.6,9.0,5.0,10.0,-23.0,65.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+10_-104,5,5.9,6.6,10.0,10.0,10.0,-103.0,11.0,Pacific Ring of Fire - Central America & Caribbean,Moderate
+grid_+38_+068,5,5.44,5.8,19.33,5.0,33.0,69.0,39.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-50_+160,5,5.94,8.1,10.0,10.0,10.0,161.0,-49.0,Pacific Ring of Fire - Oceania & South Pacific,Moderate
+grid_-58_-068,5,5.62,6.3,10.99,10.0,14.97,-67.0,-57.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-38_-076,5,5.84,7.4,29.36,20.2,35.0,-75.0,-37.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_+26_+102,5,5.58,6.2,20.74,6.3,42.4,103.0,27.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+42_+132,5,5.8,6.2,457.32,441.2,481.1,133.0,43.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-10_+146,5,5.32,5.6,18.8,4.0,46.7,147.0,-9.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-42_-084,5,5.4,5.7,10.0,10.0,10.0,-83.0,-41.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-44_+124,5,5.64,7.1,10.0,10.0,10.0,125.0,-43.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-02_-092,5,5.34,5.5,12.54,10.0,22.7,-91.0,-1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-64_-168,5,5.62,6.0,8.8,4.0,10.0,-167.0,-63.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+48_+142,5,5.62,6.8,127.3,10.0,596.5,143.0,49.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_+80_-002,5,5.56,6.5,9.8,9.0,10.0,-1.0,81.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+66_-164,5,5.72,5.8,21.5,15.3,26.9,-163.0,67.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-50_+122,5,5.58,5.9,10.0,10.0,10.0,123.0,-49.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+28_+086,5,5.5,5.7,13.61,5.7,33.0,87.0,29.0,Himalayan & South Asian Collision Belt,Moderate
+grid_-32_-112,5,5.62,6.0,10.0,10.0,10.0,-111.0,-31.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+34_+046,5,5.54,6.0,19.6,10.0,33.0,47.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+32_+068,5,5.54,6.0,13.4,4.0,33.0,69.0,33.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+38_+024,5,5.68,6.5,15.04,9.0,33.0,25.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-08_+030,5,5.56,6.5,23.5,10.0,38.5,31.0,-7.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+30_+048,5,5.46,5.6,13.6,10.0,19.0,49.0,31.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-42_+044,5,5.56,5.9,9.8,9.0,10.0,45.0,-41.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+54_-164,5,5.52,5.7,36.3,10.0,72.7,-163.0,55.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+30_+068,5,5.38,5.8,21.96,10.0,35.2,69.0,31.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+44_+152,5,5.76,6.0,23.78,10.0,33.0,153.0,45.0,Pacific Ring of Fire - East Asia & Japan,Moderate
+grid_-44_+088,5,5.64,6.0,10.0,10.0,10.0,89.0,-43.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-56_+144,5,5.68,6.1,9.5,7.5,10.0,145.0,-55.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+34_+062,5,5.84,6.3,10.18,8.0,12.48,63.0,35.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-44_+040,5,5.56,6.2,10.0,10.0,10.0,41.0,-43.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-60_-008,5,5.9,6.6,10.0,10.0,10.0,-7.0,-59.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+36_+030,5,5.46,5.9,71.31,40.7,135.3,31.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+60_-154,5,5.58,5.9,108.74,83.0,151.2,-153.0,61.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_-10_-082,5,5.36,5.7,22.02,10.0,33.2,-81.0,-9.0,Pacific Ring of Fire - South America & Andes,Moderate
+grid_-24_-112,5,5.5,5.7,10.0,10.0,10.0,-111.0,-23.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-22_-012,5,5.4,5.5,10.0,10.0,10.0,-11.0,-21.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+38_+036,5,5.98,7.5,9.19,7.43,10.0,37.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+60_-150,5,5.74,7.1,43.94,40.2,46.7,-149.0,61.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+58_-152,5,5.32,5.5,53.32,45.5,65.4,-151.0,59.0,Pacific Ring of Fire - North America & Alaska,Moderate
+grid_+02_-096,5,5.52,5.8,10.0,10.0,10.0,-95.0,3.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-08_+110,5,6.04,6.3,403.91,12.5,636.41,111.0,-7.0,Pacific Ring of Fire - Southeast Asia & Sunda Trench,Moderate
+grid_-46_+096,5,6.02,6.5,9.6,8.0,10.0,97.0,-45.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-40_-018,5,5.32,5.5,10.0,10.0,10.0,-17.0,-39.0,Mid-Atlantic Ridge & Polar Oceans,Moderate
+grid_+36_+096,5,5.58,6.4,12.36,10.0,14.3,97.0,37.0,Himalayan & South Asian Collision Belt,Moderate
+grid_+38_+030,5,5.86,6.5,9.0,5.0,10.0,31.0,39.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_+36_+004,5,5.46,6.0,9.6,8.0,10.0,5.0,37.0,Mediterranean & Alpine-Middle East Belt,Moderate
+grid_-62_-052,5,5.46,5.9,15.52,10.0,37.6,-51.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+00_+030,5,5.52,5.9,14.62,10.0,24.0,31.0,1.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-44_+042,5,5.94,6.7,10.6,10.0,13.0,43.0,-43.0,Global Intraplate & Oceanic Basins,Moderate
+grid_-62_-024,5,5.62,6.1,24.7,10.0,48.1,-23.0,-61.0,Global Intraplate & Oceanic Basins,Moderate
+grid_+32_+134,5,5.32,5.5,106.14,12.08,411.2,135.0,33.0,Pacific Ring of Fire - East Asia & Japan,Moderate
