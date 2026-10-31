@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Sidebar, navItems } from './components/Sidebar';
 import { OverviewPage } from './pages/OverviewPage';
 import { MapPage } from './pages/MapPage';
+import { SafetyEducationPage } from './pages/SafetyEducationPage';
 import { TemporalPage } from './pages/TemporalPage';
 import { MagnitudeDepthPage } from './pages/MagnitudeDepthPage';
 import { RegionalExplorerPage } from './pages/RegionalExplorerPage';
@@ -13,7 +14,7 @@ import type { UserAccount } from './types/earthquake';
 export const App: React.FC = () => {
   const getInitialTab = (): string => {
     const hash = window.location.hash.replace('#', '').trim();
-    const validTabs = ['overview', 'map', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
+    const validTabs = ['overview', 'map', 'safety', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
     return validTabs.includes(hash) ? hash : 'overview';
   };
 
@@ -23,7 +24,7 @@ export const App: React.FC = () => {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '').trim();
-      const validTabs = ['overview', 'map', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
+      const validTabs = ['overview', 'map', 'safety', 'temporal', 'mag_depth', 'regional', 'data_quality', 'admin'];
       if (validTabs.includes(hash)) {
         setActiveTab(hash);
       }
@@ -82,6 +83,7 @@ export const App: React.FC = () => {
               <OverviewPage onNavigateToMap={() => handleTabChange('map')} />
             )}
             {activeTab === 'map' && <MapPage />}
+            {activeTab === 'safety' && <SafetyEducationPage />}
             {activeTab === 'temporal' && <TemporalPage />}
             {activeTab === 'mag_depth' && <MagnitudeDepthPage />}
             {activeTab === 'regional' && <RegionalExplorerPage />}
@@ -94,8 +96,8 @@ export const App: React.FC = () => {
 
         {/* User-focused footer */}
         <div className="mt-12 pt-6 border-t border-[#121c2d] flex items-center justify-between text-xs text-slate-500 font-mono">
-          <span>EarthPulse &bull; USGS Real-Time Seismic Analysis Platform</span>
-          <span className="text-teal-400/80">Connected to 26,170 Historical Events</span>
+          <span>EarthPulse &bull; USGS Seismic Data Mining &amp; Disaster Resilience Platform</span>
+          <span className="text-teal-400/80">26,170 Historical Events Indexed (2000–2025)</span>
         </div>
       </main>
     </div>

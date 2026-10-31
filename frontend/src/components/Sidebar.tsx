@@ -9,13 +9,14 @@ interface SidebarProps {
 }
 
 export const navItems = [
-  { id: 'overview', label: 'Global Overview', category: 'GLOBAL OVERVIEW', title: 'How is seismic energy distributed worldwide?' },
-  { id: 'map', label: 'Earthquake Map', category: 'EARTHQUAKE MAP', title: 'Where are the latest seismic events occurring?' },
-  { id: 'temporal', label: 'Temporal Analysis', category: 'TEMPORAL ANALYSIS', title: 'How does seismic activity change over time?' },
-  { id: 'mag_depth', label: 'Magnitude & Depth', category: 'MAGNITUDE AND DEPTH ANALYSIS', title: 'Is there a relationship between magnitude and depth?' },
-  { id: 'regional', label: 'Regional Explorer', category: 'REGIONAL EXPLORER', title: 'How do regions compare?' },
-  { id: 'data_quality', label: 'Data Quality & Big Data', category: 'DATA QUALITY AND BIG DATA', title: 'How trustworthy and large is the imported data?' },
-  { id: 'admin', label: 'Users & Admin', category: 'USERS AND ADMIN', title: 'Who can do what, and what is the pipeline doing?' },
+  { id: 'overview', label: 'Global Overview', category: 'SEISMIC INTELLIGENCE', title: 'Global Seismic Overview & Catastrophic Event Monitoring' },
+  { id: 'map', label: 'Earthquake Map', category: 'GEOSPATIAL EXPLORER', title: 'Interactive Seismic Map & Proximity Search' },
+  { id: 'safety', label: 'Safety & Education', category: 'PREPAREDNESS & ARTICLES', title: 'Earthquake Safety Protocols, Case Studies & Emergency Relief' },
+  { id: 'temporal', label: 'Temporal Analysis', category: 'TIME-SERIES TRENDS', title: 'Historical Frequency & Multi-Year Activity Trends' },
+  { id: 'mag_depth', label: 'Magnitude & Depth', category: 'LITHOSPHERIC DYNAMICS', title: 'Focal Depth Classification & Energy Release Patterns' },
+  { id: 'regional', label: 'Regional Explorer', category: 'TECTONIC BELTS', title: 'Global Plate Boundary Activity & Hotspot Analysis' },
+  { id: 'data_quality', label: 'Data Quality & Big Data', category: 'DATA GOVERNANCE', title: 'Dataset Telemetry, Index Optimization & Audit Trail' },
+  { id: 'admin', label: 'Users & Admin', category: 'SYSTEM ADMINISTRATION', title: 'Access Control, Data Pipelines & Ingestion Logs' },
 ];
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, user }) => {
